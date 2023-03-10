@@ -26,10 +26,9 @@ layout: default
      save them as `/assets/member_images/your_name_photo_#.png`
      and replace example_student below -->
 
-|      |      |      |
-|:----:|:----:|:----:|
-|![](/website/assets/img/arthur_lin_1.jpg) | ![](/website/assets/img/example_student_2.png) | ![](/website/assets/img/example_student_3.png) | 
-
+|      |
+|:----:|
+|![](/website/assets/img/arthur_lin_1.gif) | 
 
 
 
