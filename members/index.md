@@ -31,10 +31,10 @@ layout: default
 <h2 style="text-align: center;"> Undergraduate Researchers
 </h2>
 
-|      |      |
-|:----:|:----:|
-|<a href='/website/members/anna_claire_crowley'><img src='/website/assets/img/anna_claire_crowley.png' style='max-height:200px'></a>|<a href='/website/members/natalie_hooven'><img src='/website/assets/img/natalie_hooven.png' style='max-height:200px'></a>|
-|<a href="/website/members/anna_claire_crowley">Anna Claire Crowley</a>|<a href="/website/members/natalie_hooven">Natalie Hooven</a>|
+|      |      |      |
+|:----:|:----:|:----:|
+|<a href='/website/members/anna_claire_crowley'><img src='/website/assets/img/anna_claire_crowley.png' style='max-height:200px'></a>|<a href='/website/members/natalie_hooven'><img src='/website/assets/img/natalie_hooven.png' style='max-height:200px'></a>|<a href='/website/members/seungmin_(henry)_lee'><img src='/website/assets/img/seungmin_(henry)_lee.png' style='max-height:200px'></a>|
+|<a href="/website/members/anna_claire_crowley">Anna Claire Crowley</a>|<a href="/website/members/natalie_hooven">Natalie Hooven</a>|<a href="/website/members/seungmin_(henry)_lee">Seungmin (Henry) Lee</a>|
 {:.custom-table}
 
 ------
