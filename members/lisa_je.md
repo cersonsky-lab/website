@@ -1,9 +1,10 @@
 ---
+
 layout: default
 ---
 
 <!-- Replace `example_student` with your name -->
-<img src="/website/assets/img/lisa_je.png" alt="Placeholder Image" class="center" style="max-width: 100%">
+<img src="/website/assets/img/lisa_je.jpg" alt="Placeholder Image" class="center" style="max-width: 100%">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Lisa Je (2023 - present)**
@@ -26,7 +27,7 @@ layout: default
 
 |      |      |      |
 |:----:|:----:|:----:|
-|![](/website/assets/img/lisa_je_1.png) | ![](/website/assets/img/lisa_je_2.png) | ![](/website/assets/img/lisa_je_3.png) | 
+|![](/website/assets/img/lisa_je_1.jpg) | ![](/website/assets/img/lisa_je_2.jpg) | ![](/website/assets/img/lisa_je_3.jpg) | 
 
 
 
