@@ -37,10 +37,10 @@ layout: default
 |:----:|:----:|:----:|
 |<a href='/website/members/yong-cheol_cho'><img src='/website/assets/img/yong-cheol_cho.png' style='max-height:200px'></a>|<a href='/website/members/anna_claire_crowley'><img src='/website/assets/img/anna_claire_crowley.png' style='max-height:200px'></a>|<a href='/website/members/natalie_hooven'><img src='/website/assets/img/natalie_hooven.png' style='max-height:200px'></a>|
 |<a href="/website/members/yong-cheol_cho">Yong-Cheol Cho</a>|<a href="/website/members/anna_claire_crowley">Anna Claire Crowley</a>|<a href="/website/members/natalie_hooven">Natalie Hooven</a>|
-|<a href='/website/members/seonwoo_hwang'><img src='/website/assets/img/seonwoo_hwang.jpg' style='max-height:200px'></a>|<a href='/website/members/seungmin_henry_lee'><img src='/website/assets/img/seungmin_henry_lee.png' style='max-height:200px'></a>|<a href='/website/members/lucas_ortengren'><img src='/website/assets/img/lucas_ortengren.png' style='max-height:200px'></a>|
-|<a href="/website/members/seonwoo_hwang">Seonwoo Hwang</a>|<a href="/website/members/seungmin_henry_lee">Seungmin Henry Lee</a>|<a href="/website/members/lucas_ortengren">Lucas Ortengren</a>|
-|<a href='/website/members/matthew_reuteman'><img src='/website/assets/img/matthew_reuteman.png' style='max-height:200px'></a>|<a href='/website/members/caleb_youngwerth'><img src='/website/assets/img/caleb_youngwerth.jpg' style='max-height:200px'></a>| |
-|<a href="/website/members/matthew_reuteman">Matthew Reuteman</a>|<a href="/website/members/caleb_youngwerth">Caleb Youngwerth</a>| |
+|<a href='/website/members/seonwoo_hwang'><img src='/website/assets/img/seonwoo_hwang.jpg' style='max-height:200px'></a>|<a href='/website/members/seungmin_henry_lee'><img src='/website/assets/img/seungmin_henry_lee.png' style='max-height:200px'></a>|<a href='/website/members/grace_lee'><img src='/website/assets/img/grace_lee.png' style='max-height:200px'></a>|
+|<a href="/website/members/seonwoo_hwang">Seonwoo Hwang</a>|<a href="/website/members/seungmin_henry_lee">Seungmin Henry Lee</a>|<a href="/website/members/grace_lee">Grace Lee</a>|
+|<a href='/website/members/lucas_ortengren'><img src='/website/assets/img/lucas_ortengren.png' style='max-height:200px'></a>|<a href='/website/members/matthew_reuteman'><img src='/website/assets/img/matthew_reuteman.png' style='max-height:200px'></a>|<a href='/website/members/caleb_youngwerth'><img src='/website/assets/img/caleb_youngwerth.jpg' style='max-height:200px'></a>|
+|<a href="/website/members/lucas_ortengren">Lucas Ortengren</a>|<a href="/website/members/matthew_reuteman">Matthew Reuteman</a>|<a href="/website/members/caleb_youngwerth">Caleb Youngwerth</a>|
 {:.custom-table}
 
 ------
