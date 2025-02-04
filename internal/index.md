@@ -20,6 +20,8 @@ layout: default
 - [scikit-matter](https://scikit-matter.readthedocs.io/en/latest/): a repository of scikit-learn compatible methods for chemical and materials research
 - [AniSOAP](https://github.com/cersonsky-lab/anisoap): a software suite for representing anisotropic particles in machine learning feature spaces
 - [Kernel tutorials](https://github.com/lab-cosmo/kernel-tutorials): a set of pedagogical notebooks for learning non-linear machine learning methods
+- [Materials informatics resources](https://github.com/tilde-lab/awesome-materials-informatics): a list of software, cloud platforms, datasets, and standards relevant to computational materials science
+- [Chemiscope](https://chemiscope.org/): a tool for visually exploring chemical datasets
 
 ## Group Member Blogposts
 
