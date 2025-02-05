@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Replace `example_student` with your name -->
-<img src="/website/assets/img/seonwoo_hwang.JPG" alt="Placeholder Image" class="center" style="max-width: 100%">
+<img src="/assets/img/seonwoo_hwang.JPG" alt="Placeholder Image" class="center" style="max-width: 100%">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Seonwoo Hwang (2023 - present)**
@@ -27,7 +27,7 @@ layout: default
 
 |      |      |
 |:----:|:----:|
-|![](/website/assets/img/seonwoo_hwang_1.JPG) | ![](/website/assets/img/seonwoo_hwang_2.JPG) | 
+|![](/assets/img/seonwoo_hwang_1.JPG) | ![](/assets/img/seonwoo_hwang_2.JPG) | 
 
 
 

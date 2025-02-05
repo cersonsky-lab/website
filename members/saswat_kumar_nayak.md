@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Replace `example_student` with your name -->
-<img src="/website/assets/img/saswat_kumar_nayak.png" alt="Placeholder Image" class="center" style="max-width: 100%">
+<img src="/assets/img/saswat_kumar_nayak.png" alt="Placeholder Image" class="center" style="max-width: 100%">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Saswat Kumar Nayak (2023 - present)**
@@ -26,7 +26,7 @@ layout: default
 
 |      |      |      |
 |:----:|:----:|:----:|
-|![](/website/assets/img/saswat_kumar_nayak_1.png) | ![](/website/assets/img/saswat_kumar_nayak_2.png) | ![](/website/assets/img/saswat_kumar_nayak_3.png) | 
+|![](/assets/img/saswat_kumar_nayak_1.png) | ![](/assets/img/saswat_kumar_nayak_2.png) | ![](/assets/img/saswat_kumar_nayak_3.png) | 
 
 
 

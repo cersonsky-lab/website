@@ -62,10 +62,10 @@ with open("members/index.md", "w") as outf:
                                         my_peepcodes[j]
                                     )
                                 )
-                            images += "|<a href='/website/members/{}'><img src='/website/assets/img/{}.{}' style='max-height:200px'></a>".format(
+                            images += "|<a href='/members/{}'><img src='/assets/img/{}.{}' style='max-height:200px'></a>".format(
                                 my_peepcodes[j], my_peepcodes[j], ext
                             )
-                            names += '|<a href="/website/members/{}">{}</a>'.format(
+                            names += '|<a href="/members/{}">{}</a>'.format(
                                 my_peepcodes[j], my_peeps[j]
                             )
                         else:

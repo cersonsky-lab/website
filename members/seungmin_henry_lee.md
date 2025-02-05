@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Replace `example_student` with your name -->
-<img src="/website/assets/img/seungmin_henry_lee.png" alt="Placeholder Image" class="center" style="max-width: 100%">
+<img src="/assets/img/seungmin_henry_lee.png" alt="Placeholder Image" class="center" style="max-width: 100%">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Seungmin Lee (Henry) (2023 - present)**
@@ -26,7 +26,7 @@ layout: default
 
 |      |      |      |
 |:----:|:----:|:----:|
-|![](/website/assets/img/seungmin_henry_lee_1.png) | ![](/website/assets/img/seungmin_henry_lee_2.png) |
+|![](/assets/img/seungmin_henry_lee_1.png) | ![](/assets/img/seungmin_henry_lee_2.png) |
 
 
 

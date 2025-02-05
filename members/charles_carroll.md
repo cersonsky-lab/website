@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Replace `example_student` with your name -->
-<img src="/website/assets/img/charles_carroll.png" alt="Placeholder Image" class="center" style="max-width: 100%">
+<img src="/assets/img/charles_carroll.png" alt="Placeholder Image" class="center" style="max-width: 100%">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Charles Carroll (2023 - present)**
@@ -28,5 +28,5 @@ layout: default
 
 |      |      |
 |:----:|:----:|
-|![](/website/assets/img/charles_carroll_1.png) | ![](/website/assets/img/charles_carroll_2.png) |
-|![](/website/assets/img/charles_carroll_3.png) | ![](/website/assets/img/charles_carroll_4.png) |
+|![](/assets/img/charles_carroll_1.png) | ![](/assets/img/charles_carroll_2.png) |
+|![](/assets/img/charles_carroll_3.png) | ![](/assets/img/charles_carroll_4.png) |

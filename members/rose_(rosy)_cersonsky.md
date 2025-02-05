@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Replace `example_student` with your name -->
-<img src="/website/assets/img/rose_(rosy)_cersonsky.jpg" alt="Placeholder Image" class="center" style="max-width: 100%">
+<img src="/assets/img/rose_(rosy)_cersonsky.jpg" alt="Placeholder Image" class="center" style="max-width: 100%">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Rose (Rosy) Cersonsky**
@@ -26,10 +26,10 @@ Outside of the lab, I love to run, climb, bake, and be in the outdoors!
      save them as `/assets/member_images/your_name_photo_#.png`
      and replace example_student below -->
 
-<img src="/website/assets/img/rose_cersonsky_1.png" style="max-height: 250px"> <img src="/website/assets/img/rose_cersonsky_3.jpg" style="max-height: 250px">
-![](/website/assets/img/rose_cersonsky_2.png) 
-![](/website/assets/img/rose_cersonsky_4.jpg) 
-<img src="/website/assets/img/rose_cersonsky_5.jpg" style="max-height: 300px"> <img src="/website/assets/img/rose_cersonsky_6.jpg" style="max-height: 300px">
+<img src="/assets/img/rose_cersonsky_1.png" style="max-height: 250px"> <img src="/assets/img/rose_cersonsky_3.jpg" style="max-height: 250px">
+![](/assets/img/rose_cersonsky_2.png) 
+![](/assets/img/rose_cersonsky_4.jpg) 
+<img src="/assets/img/rose_cersonsky_5.jpg" style="max-height: 300px"> <img src="/assets/img/rose_cersonsky_6.jpg" style="max-height: 300px">
 
 
 

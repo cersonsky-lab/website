@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Replace `example_student` with your name -->
-<img src="/website/assets/img/lucas_ortengren.png" alt="Lucas Ortengren Image" class="center" style="max-width: 100%">
+<img src="/assets/img/lucas_ortengren.png" alt="Lucas Ortengren Image" class="center" style="max-width: 100%">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Lucas Ortengren (2023 - present)**
@@ -25,7 +25,7 @@ layout: default
 
 |      |      |      |
 |:----:|:----:|:----:|
-|![](/website/assets/img/lucas_ortengren_1.png) | ![](/website/assets/img/lucas_ortengren_2.png) | ![](/website/assets/img/lucas_ortengren_3.png) | 
+|![](/assets/img/lucas_ortengren_1.png) | ![](/assets/img/lucas_ortengren_2.png) | ![](/assets/img/lucas_ortengren_3.png) | 
 
 
 

@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Replace `example_student` with your name -->
-<img src="/website/assets/img/yong-cheol_cho.png" alt="Yong-Cheol Cho - image" class="center" style="max-width: 100%">
+<img src="/assets/img/yong-cheol_cho.png" alt="Yong-Cheol Cho - image" class="center" style="max-width: 100%">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Yong-Cheol Cho (2023 - present)**
@@ -28,4 +28,4 @@ layout: default
 
 |      |      |      |
 |:----:|:----:|:----:|
-|![](/website/assets/img/yong-cheol_cho_1.png) | ![](/website/assets/img/yong-cheol_cho_2.png) | ![](/website/assets/img/yong-cheol_cho_3.png) | 
+|![](/assets/img/yong-cheol_cho_1.png) | ![](/assets/img/yong-cheol_cho_2.png) | ![](/assets/img/yong-cheol_cho_3.png) | 
