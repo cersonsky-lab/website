@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Replace `example_student` with your name -->
-<img src="/website/assets/img/leonard_and_matilda.jpg" alt="Meow" class="center" style="max-width: 100%">
+<img src="/assets/img/leonard_and_matilda.jpg" alt="Meow" class="center" style="max-width: 100%">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Leonard and Matilda (2023 - present)**
@@ -26,7 +26,7 @@ layout: default
 
 |      |      |      |
 |:----:|:----:|:----:|
-|![](/website/assets/img/leonard_and_matilda_1.jpg) | ![](/website/assets/img/leonard_and_matilda_2.jpg) | ![](/website/assets/img/leonard_and_matilda_3.jpg) | 
+|![](/assets/img/leonard_and_matilda_1.jpg) | ![](/assets/img/leonard_and_matilda_2.jpg) | ![](/assets/img/leonard_and_matilda_3.jpg) | 
 
 
 

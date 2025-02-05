@@ -6,9 +6,9 @@ layout: default
 
 ## Administrative stuff
 
-- [On-boarding steps](/website/internal/onboard)
+- [On-boarding steps](/internal/onboard)
 - [Group guidelines](https://docs.google.com/document/d/1Z-WA_A9c1kzol6xR3PqYmwi2-I_M_S8DDMXS7CykKc8/edit?usp=sharing)
-- [Off-boarding steps](/website/internal/offboard)
+- [Off-boarding steps](/internal/offboard)
 
 ## Presentations and Slides
 
@@ -26,7 +26,7 @@ layout: default
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="/website/{{ post.url }}">{{ post.date | date: "%B %d, %Y: " }}{{ post.title }}</a>
+      <a href="{{ site.url }}/{{ post.url }}">{{ post.date | date: "%B %d, %Y: " }}{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>

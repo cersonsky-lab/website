@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Replace `example_student` with your name -->
-<img src="/website/assets/img/anna_claire_crowley.png" alt="Placeholder Image" class="center" style="max-width: 100%">
+<img src="/assets/img/anna_claire_crowley.png" alt="Placeholder Image" class="center" style="max-width: 100%">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Anna Claire Crowley (2023 - present)**

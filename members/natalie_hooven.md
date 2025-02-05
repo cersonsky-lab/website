@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Replace `example_student` with your name -->
-<img src="/website/assets/img/natalie_hooven.png" alt="Placeholder Image" class="center" style="max-width:300px">
+<img src="/assets/img/natalie_hooven.png" alt="Placeholder Image" class="center" style="max-width:300px">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Natalie Hooven (2023 - present)**

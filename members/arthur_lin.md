@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Replace `example_student` with your name -->
-<img src="/website/assets/img/arthur_lin.png" alt="Profile Image" class="center" style="max-width: 100%">
+<img src="/assets/img/arthur_lin.png" alt="Profile Image" class="center" style="max-width: 100%">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Arthur Lin (2023 - present)**
@@ -28,5 +28,5 @@ layout: default
 
 |      |
 |:----:|
-|![](/website/assets/img/arthur_lin_1.gif) | 
+|![](/assets/img/arthur_lin_1.gif) | 
 

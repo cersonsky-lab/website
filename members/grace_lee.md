@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Replace `example_student` with your name -->
-<img src="/website/assets/img/grace_lee.png" alt="Placeholder Image" class="center" style="max-width: 100%">
+<img src="/assets/img/grace_lee.png" alt="Placeholder Image" class="center" style="max-width: 100%">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Grace Lee (2024 - present)**
@@ -25,7 +25,7 @@ layout: default
 
 |      |      |
 |:----:|:----:|
-|![](/website/assets/img/grace_lee_1.png) | ![](/website/assets/img/grace_lee_2.png) | 
+|![](/assets/img/grace_lee_1.png) | ![](/assets/img/grace_lee_2.png) | 
 
 
 

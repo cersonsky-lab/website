@@ -5,7 +5,7 @@ title: "8 Tips for a Literature Review Presentation"
 
 # 8 Tips for a Literature Review Presentation
 
-by [Caleb Youngwerth](https://cersonsky-lab.github.io/website/members/caleb_youngwerth)
+by [Caleb Youngwerth](https://cersonsky-lab.github.io/members/caleb_youngwerth)
 
 Literature reviews for research are very different from any other presentation you may have done before, so prepare to relearn how to present. The goals of
 research literature reviews are different, the style is different, even the pacing is different. Even if you have previously done a literature review in

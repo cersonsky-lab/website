@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Replace `example_student` with your name -->
-<img src="/website/assets/img/christian_jorgensen.png" alt="Placeholder Image" class="center" style="max-width: 100%">
+<img src="/assets/img/christian_jorgensen.png" alt="Placeholder Image" class="center" style="max-width: 100%">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Christian Jorgensen (2023 - present)**
@@ -26,7 +26,7 @@ layout: default
 
 |      |
 |:----:|
-|![](/website/assets/img/christian_jorgensen_1.png) | 
+|![](/assets/img/christian_jorgensen_1.png) | 
 
 
 
