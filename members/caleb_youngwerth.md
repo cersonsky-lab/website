@@ -39,7 +39,7 @@ layout: default
 </head>
 
 <!-- Replace `example_student` with your name -->
-<img src="/assets/img/caleb_youngwerth.jpg" alt="Placeholder Image" class="center profile">
+<img src="{{ site.baseurl }}/assets/img/caleb_youngwerth.jpg" alt="Placeholder Image" class="center profile">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # Caleb Youngwerth (2023 - present)
@@ -65,6 +65,6 @@ I survived a year of college while also being in the marching band.
 
 <div class="profile-container">
 <div>
-<img src='/assets/img/caleb_youngwerth_1.png' class="extra"> 
+<img src="{{ site.baseurl }}/assets/img/caleb_youngwerth_1.png" class="extra"> 
 </div>
 </div>

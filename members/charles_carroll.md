@@ -39,7 +39,7 @@ layout: default
 </head>
 
 <!-- Replace `example_student` with your name -->
-<img src="/assets/img/charles_carroll.png" alt="Placeholder Image" class="center profile">
+<img src="{{ site.baseurl }}/assets/img/charles_carroll.png" alt="Placeholder Image" class="center profile">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Charles Carroll (2023 - present)**
@@ -66,16 +66,16 @@ Representations, chemistry, computers.
 
 <div class="profile-container">
 <div>
-<img src='/assets/img/charles_carroll_1.png' class="extra"> 
+<img src="{{ site.baseurl }}/assets/img/charles_carroll_1.png" class="extra"> 
 </div>
 <div>
-<img src='/assets/img/charles_carroll_2.png' class="extra">
+<img src="{{ site.baseurl }}/assets/img/charles_carroll_2.png" class="extra">
 </div>
 <div>
-<img src='/assets/img/charles_carroll_3.png' class="extra">
+<img src="{{ site.baseurl }}/assets/img/charles_carroll_3.png" class="extra">
 </div>
 <div>
-<img src='/assets/img/charles_carroll_4.png' class="extra">
+<img src="{{ site.baseurl }}/assets/img/charles_carroll_4.png" class="extra">
 </div>
 </div>
 
