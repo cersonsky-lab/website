@@ -39,7 +39,7 @@ layout: default
 </head>
 
 <!-- Replace `example_student` with your name -->
-<img src="/assets/img/rose_(rosy)_cersonsky.jpg" alt="Placeholder Image" class="center profile">
+<img src="{{ site.baseurl }}/assets/img/rose_(rosy)_cersonsky.jpg" alt="Placeholder Image" class="center profile">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Rose (Rosy) Cersonsky**
@@ -66,31 +66,31 @@ Outside of the lab, I love to run, climb, bake, and be in the outdoors!
 
 <div class="profile-container">
 <div>
-<img src='/assets/img/rose_cersonsky_1.png' style="height: 24em"> 
+<img src="{{ site.baseurl }}/assets/img/rose_cersonsky_1.png" style="height: 24em"> 
 </div>
 <div>
-<img src='/assets/img/rose_cersonsky_3.jpg' class="extra">
+<img src="{{ site.baseurl }}/assets/img/rose_cersonsky_3.jpg" class="extra">
 </div>
 </div>
 
 <div class="profile-container">
 <div>
-<img src='/assets/img/rose_cersonsky_2.png' style="width: 40em"> 
+<img src="{{ site.baseurl }}/assets/img/rose_cersonsky_2.png" style="width: 40em"> 
 </div>
 </div>
 
 <div class="profile-container">
 <div>
-<img src='/assets/img/rose_cersonsky_4.jpg' style="height: 24em"> 
+<img src="{{ site.baseurl }}/assets/img/rose_cersonsky_4.jpg" style="height: 24em"> 
 </div>
 </div>
 
 <div class="profile-container">
 <div>
-<img src='/assets/img/rose_cersonsky_5.jpg' class="extra"> 
+<img src="{{ site.baseurl }}/assets/img/rose_cersonsky_5.jpg" class="extra"> 
 </div>
 <div>
-<img src='/assets/img/rose_cersonsky_6.jpg' class="extra"> 
+<img src="{{ site.baseurl }}/assets/img/rose_cersonsky_6.jpg" class="extra"> 
 </div>
 </div>
 

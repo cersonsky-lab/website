@@ -39,7 +39,7 @@ layout: default
 </head>
 
 <!-- Replace `example_student` with your name -->
-<img src="/assets/img/ethan_deutsch.png" alt="Placeholder Image" class="center profile">
+<img src="{{ site.baseurl }}/assets/img/ethan_deutsch.png" alt="Placeholder Image" class="center profile">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Ethan Deutsch (2024 - present)**
@@ -67,9 +67,9 @@ Still learning and growing.
 
 <div class="profile-container">
 <div>
-<img src='/assets/img/ethan_deutsch_1.png' class="extra"> 
+<img src="{{ site.baseurl }}/assets/img/ethan_deutsch_1.png" class="extra"> 
 </div>
 <div>
-<img src='/assets/img/ethan_deutsch_2.GIF' class="extra">
+<img src="{{ site.baseurl }}/assets/img/ethan_deutsch_2.GIF" class="extra">
 </div>
 </div>

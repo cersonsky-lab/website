@@ -38,7 +38,7 @@ layout: default
 </style>
 </head>
 <!-- Replace `example_student` with your name -->
-<img src="/assets/img/lisa_je.png" alt="Placeholder Image" class="center profile">
+<img src="{{ site.baseurl }}/assets/img/lisa_je.png" alt="Placeholder Image" class="center profile">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Lisa Je (2023 - present)**
@@ -64,13 +64,13 @@ National Science Foundation Graduate Research Fellow (NSF GRFP), National Academ
 
 <div class="profile-container">
 <div>
-<img src='/assets/img/lisa_je_1.png' class="extra"> 
+<img src="{{ site.baseurl }}/assets/img/lisa_je_1.png" class="extra"> 
 </div>
 <div>
-<img src='/assets/img/lisa_je_2.png' class="extra">
+<img src="{{ site.baseurl }}/assets/img/lisa_je_2.png" class="extra">
 </div>
 <div>
-<img src='/assets/img/lisa_je_3.png' class="extra">
+<img src="{{ site.baseurl }}/assets/img/lisa_je_3.png" class="extra">
 </div>
 </div>
 

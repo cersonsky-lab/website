@@ -56,7 +56,7 @@ with open("members/index.md", "w") as outf:
                             raise FileNotFoundError(
                                 f"./members/{peepcodes[j]}.md does not exist."
                             )
-                        images += f'<div class="profile">\n<a href="/members/{peepcodes[j]}"><img src="/assets/img/{peepcodes[j]}.{ext}" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="/members/{peepcodes[j]}">{peeps[j]}</a>\n</div>\n'
+                        images += f'<div class="profile">\n<a href="{{{{ site.baseurl }}}}/members/{peepcodes[j]}"><img src="{{{{ site.baseurl }}}}/assets/img/{peepcodes[j]}.{ext}" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{{{ site.baseurl }}}}/members/{peepcodes[j]}">{peeps[j]}</a>\n</div>\n'
                 images += "</div>\n"
                 outf.write(images)
                 outf.write("\n\n------\n")

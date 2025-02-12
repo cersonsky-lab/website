@@ -39,7 +39,7 @@ layout: default
 </head>
 
 <!-- Replace `example_student` with your name -->
-<img src="/assets/img/jigyasa_nigam.png" alt="jigyasa-placeholder Image" class="center profile">
+<img src="{{ site.baseurl }}/assets/img/jigyasa_nigam.png" alt="jigyasa-placeholder Image" class="center profile">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Jigyasa Nigam (2022 - present)**
