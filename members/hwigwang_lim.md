@@ -2,8 +2,45 @@
 layout: default
 ---
 
+<head>
+<style>
+.profile-container {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ gap: 25px 10px;
+ max-width: 700px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+.extra {
+ max-width: 45%;
+ object-fit: cover;
+ text-align: center;
+}
+.profile {
+ width: 35em;
+}
+
+@media print, screen and (max-width: 720px) {
+ .profile {
+  width: 100%;
+ }
+ .extra {
+  max-width: 45%;
+ }
+}
+
+</style>
+</head>
+
+
 <!-- Replace `example_student` with your name -->
-<img src="/assets/img/hwigwang_lim.png" alt="Placeholder Image" class="center" style="max-width: 100%">
+<img src="/assets/img/hwigwang_lim.png" alt="Placeholder Image" class="center profile">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Hwigwang Lim (2023 - present)**
@@ -24,10 +61,14 @@ layout: default
      save them as `/assets/member_images/your_name_photo_#.png`
      and replace example_student below -->
 
-|      |      |
-|:----:|:----:|
-|![](/assets/img/hwigwang_lim_1.png) | ![](/assets/img/hwigwang_lim_2.png) |
-
+<div class="profile-container">
+<div class="extra">
+<img src='/assets/img/hwigwang_lim_1.png'> 
+</div>
+<div class="extra">
+<img src='/assets/img/hwigwang_lim_2.png'>
+</div>
+</div>
 
 
 

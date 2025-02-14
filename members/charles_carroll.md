@@ -2,8 +2,45 @@
 layout: default
 ---
 
+<head>
+<style>
+.profile-container {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ gap: 15px 15px;
+ max-width: 700px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+.extra {
+ object-fit: cover;
+ text-align: center;
+}
+.profile {
+ width: 35em;
+ height: 35em;
+ object-fit: cover;
+}
+
+@media print, screen and (max-width: 720px) {
+ .profile {
+  width: 100%;
+ }
+ .extra {
+  max-width: 45%;
+ }
+}
+
+</style>
+</head>
+
 <!-- Replace `example_student` with your name -->
-<img src="/assets/img/charles_carroll.png" alt="Placeholder Image" class="center" style="max-width: 100%">
+<img src="/assets/img/charles_carroll.png" alt="Placeholder Image" class="center profile">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Charles Carroll (2023 - present)**
@@ -26,7 +63,19 @@ layout: default
      save them as `/assets/member_images/your_name_photo_#.png`
      and replace example_student below -->
 
-|      |      |
-|:----:|:----:|
-|![](/assets/img/charles_carroll_1.png) | ![](/assets/img/charles_carroll_2.png) |
-|![](/assets/img/charles_carroll_3.png) | ![](/assets/img/charles_carroll_4.png) |
+<div class="profile-container">
+<div class="extra" style="max-width: 45%;">
+<img src='/assets/img/charles_carroll_1.png'> 
+</div>
+<div class="extra" style="max-width: 45%;">
+<img src='/assets/img/charles_carroll_2.png'>
+</div>
+<div class="extra" style="max-width: 45%;">
+<img src='/assets/img/charles_carroll_3.png'>
+</div>
+<div class="extra" style="max-width: 45%;">
+<img src='/assets/img/charles_carroll_4.png'>
+</div>
+</div>
+
+
