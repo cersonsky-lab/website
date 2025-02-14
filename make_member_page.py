@@ -1,7 +1,18 @@
 import os
 
 with open("members/index.md", "w") as outf:
-    outf.write("---\nlayout: default\n---\n# Cersonsky Lab Members\n")
+    outf.write("---\nlayout: default\n---\n# Cersonsky Lab Members\n\n")
+    outf.write("<head>\n<style>\n.profile-container {\n display: flex;\n flex-direction: row;\n flex-wrap: wrap;\n"
+               " justify-content: center;\n align-items: center;\n gap: 25px 10px;\n max-width: 700px;\n"
+               " margin-left: auto;\n margin-right: auto;\n margin-top: 20px;\n margin-bottom: 20px;\n}\n"
+               ".profile {\n text-align: center;\n width: 210px;\n}\n\n"
+               "@media print, screen and (max-width: 1100px) {\n .profile-container {\n  max-width: 450px\n }\n"
+               " .profile{\n  width: 47%;\n }\n\n"
+               "@media print, screen and (max-width: 960px) {\n .profile-container {\n  max-width: 700px\n }\n"
+               " .profile{\n  width: 31%;\n }\n\n"
+               "@media print, screen and (max-width: 720px) {\n .profile-container {\n  max-width: 450px\n }\n"
+               " .profile{\n  width: 47%;\n }\n\n"
+               "</style>\n</head>\n\n")
 
     n = 0
     subtitle = ""
@@ -15,67 +26,39 @@ with open("members/index.md", "w") as outf:
             "undergraduate researchers\n",
             "visitors and collaborators\n",
             "alumni\n",
+            "end\n"
         ]:
             if n > 0:
+                s = f'\n\n<h2 style="text-align: center;"> {subtitle.title()}</h2>\n\n'
                 skip = n
-                if n >= 3:
-                    s = '\n\n<h2 style="text-align: center;"> {}</h2>\n\n|      |      |      |\n|:----:|:----:|:----:|\n'.format(
-                        subtitle.title()
-                    )
-                    skip = 3
-                elif n == 2:
-                    s = '\n\n<h2 style="text-align: center;"> {}</h2>\n\n|      |      |\n|:----:|:----:|\n'.format(
-                        subtitle.title()
-                    )
-                else:
-                    s = '\n\n<h2 style="text-align: center;"> {}</h2>\n\n|      |\n|:----:|\n'.format(
-                        subtitle.title()
-                    )
                 outf.write(s)
-                for i in range(len(peeps))[::skip]:
-                    my_peeps = peeps[i : i + skip]
-                    my_peepcodes = peepcodes[i : i + 3]
-                    images = ""
-                    names = ""
-                    for j in range(skip):
-                        if j < len(my_peeps):
-                            ext = "png"
+                outf.write('<div class="profile-container">\n')
+                images = ""
+                for j in range(len(peeps)):
+                    if j < len(peeps):
+                        ext = "png"
+                        if not os.path.exists(
+                            f"assets/img/{peepcodes[j]}.png"
+                        ):
                             if not os.path.exists(
-                                "assets/img/{}.png".format(my_peepcodes[j])
-                            ):
-                                if not os.path.exists(
-                                    "assets/img/{}.jpg".format(my_peepcodes[j])
-                                ):
-                                    raise FileNotFoundError(
-                                        "File assets/img/{}.png does not exist.".format(
-                                            my_peepcodes[j]
-                                        )
-                                    )
-
-                                else:
-                                    ext = "jpg"
-                            if not os.path.exists(
-                                "./members/{}.md".format(my_peepcodes[j])
+                                f"assets/img/{peepcodes[j]}.jpg"
                             ):
                                 raise FileNotFoundError(
-                                    "./members/{}.md does not exist.".format(
-                                        my_peepcodes[j]
-                                    )
+                                    f"File assets/img/{peepcodes[j]}.png does not exist."
                                 )
-                            images += "|<a href='/members/{}'><img src='/assets/img/{}.{}' style='max-height:200px'></a>".format(
-                                my_peepcodes[j], my_peepcodes[j], ext
+
+                            else:
+                                ext = "jpg"
+                        if not os.path.exists(
+                            f"./members/{peepcodes[j]}.md"
+                        ):
+                            raise FileNotFoundError(
+                                f"./members/{peepcodes[j]}.md does not exist."
                             )
-                            names += '|<a href="/members/{}">{}</a>'.format(
-                                my_peepcodes[j], my_peeps[j]
-                            )
-                        else:
-                            images += "| "
-                            names += "| "
-                    images += "|\n"
-                    names += "|\n"
-                    outf.write(images)
-                    outf.write(names)
-                outf.write("{:.custom-table}\n\n------\n")
+                        images += f'<div class="profile">\n<a href="/members/{peepcodes[j]}"><img src="/assets/img/{peepcodes[j]}.{ext}" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="/members/{peepcodes[j]}">{peeps[j]}</a>\n</div>\n'
+                images += "</div>\n"
+                outf.write(images)
+                outf.write("\n\n------\n")
             n = 0
             subtitle = line
             peeps = []

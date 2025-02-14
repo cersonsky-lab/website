@@ -8,14 +8,9 @@ graduate researchers
  - Christian Jorgensen
  - Hwigwang Lim
  - Arthur Lin 
- - Saswat Kumar Nayak 
 
 undergraduate researchers
- - Yong-Cheol Cho
- - Anna Claire Crowley
  - Natalie Hooven
- - Seonwoo Hwang
- - Seungmin Henry Lee
  - Grace Lee
  - Lucas Ortengren
  - Matthew Reuteman
@@ -27,3 +22,10 @@ visitors and collaborators
  - Leonard and Matilda
 
 alumni
+ - Saswat Kumar Nayak 
+ - Yong-Cheol Cho
+ - Anna Claire Crowley
+ - Seonwoo Hwang
+ - Seungmin Henry Lee
+
+end
