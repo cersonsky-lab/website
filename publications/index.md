@@ -2,10 +2,8 @@
 layout: default
 ---
 For a more up-to-date list of publications, please visit [Professor Cersonsky's Google Scholar Page](https://scholar.google.com/citations?user=B2cyV70AAAAJ&hl=en&oi=ao)! 
-# Submitted
 
-
-# In Press
+# In Press and Preprints
 - Lin, A. Y.; Ortengren, L.; Hwang, S.; Cho, Y.-C.; Nigam, J.; Cersonsky, R. K. AniSOAP: Machine Learning Representations for Coarse-Grained and Non-Spherical Systems. Journal of Open Source Software **2025**.
 
 # Publications
