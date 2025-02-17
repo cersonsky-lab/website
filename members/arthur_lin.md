@@ -21,6 +21,10 @@ layout: default
 * Bellyflop off a small cliff
 * Eat a ghost pepper
 
+**Publications**:
+- Lin, A.; Huguenin-Dumittan, K. K.; Cho, Y.-C.; Nigam, J.; Cersonsky, R. K. Expanding Density-Correlation Machine Learning Representations for Anisotropic Coarse-Grained Particles. The Journal of Chemical Physics **2024**, 161 (7), 074112.  
+
+
 
 <!-- If you have photos you would like to exhibit,
      save them as `/assets/member_images/your_name_photo_#.png`
