@@ -29,8 +29,6 @@ For a more up-to-date list of publications, please visit [Professor Cersonsky's 
   [https://doi.org/10.1088/2632-2153/abfe7c](https://doi.org/10.1088/2632-2153/abfe7c).
 - Cersonsky, R. K.; Antonaglia, J.; Dice, B. D.; Glotzer, S. C. The Diversity of Three-Dimensional Photonic Crystals. Nat Commun **2021**, 12 (1), 2543.  
   [https://doi.org/10.1038/s41467-021-22809-6](https://doi.org/10.1038/s41467-021-22809-6).
-- Travitz, A.; Muniz, A.; Beckwith, J.; Cersonsky, R. K. Paper: Bringing Science Education and Research Together to REACT. **2020**, 35030.  
-  [https://doi.org/10.18260/1-2--35030](https://doi.org/10.18260/1-2--35030).
 - Helfrecht, B. A.; Cersonsky, R. K.; Fraux, G.; Ceriotti, M. Structure-Property Maps with Kernel Principal Covariates Regression. Mach. Learn.: Sci. Technol. **2020**, 1 (4), 045021.  
   [https://doi.org/10.1088/2632-2153/aba9ef](https://doi.org/10.1088/2632-2153/aba9ef).
 - Cersonsky, R. K. Designing Nanoparticles for Self-Assembly of Novel Materials; UM, 2019.  
@@ -39,6 +37,10 @@ For a more up-to-date list of publications, please visit [Professor Cersonsky's 
   [https://doi.org/10.1073/pnas.1720139115](https://doi.org/10.1073/pnas.1720139115).
 - Cersonsky, R. K.; Dshemuchadse, J.; Antonaglia, J.; van Anders, G.; Glotzer, S. C. Pressure-Tunable Photonic Band Gaps in an Entropic Colloidal Crystal. Physical Review Materials **2018**, 2 (12), 125201.  
   [https://doi.org/10.1103/PhysRevMaterials.2.125201](https://doi.org/10.1103/PhysRevMaterials.2.125201).
+
+# Outreach and Scientific Education
+- Travitz, A.; Muniz, A.; Beckwith, J.; Cersonsky, R. K. Paper: Bringing Science Education and Research Together to REACT. **2020**, 35030.  
+  [https://doi.org/10.18260/1-2--35030](https://doi.org/10.18260/1-2--35030).
 - Cersonsky, R. K.; Foster, L. L.; Ahn, T.; Hall, R. J.; van der Laan, H. L.; Scott, T. F. Augmenting Primary and Secondary Education with Polymer Science and Engineering. Journal of Chemical Education **2017**, 94 (11), 1639–1646.  
   [https://doi.org/10.1021/acs.jchemed.6b00805](https://doi.org/10.1021/acs.jchemed.6b00805).
 
