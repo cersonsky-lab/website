@@ -146,12 +146,12 @@ li {
 
 <div class="container">
 <ul>
+	<li>Saswat Kumar Nayak (MS)</li>
 	<li>Yong-Cheol Cho</li>
 	<li>Anna Claire Crowley</li>
 	<li>Seonwoo Hwang</li>
 	<li>Seungmin Henry Lee</li>
 	<li>Tryston McCaskill</li>
-	<li>Saswat Kumar Nayak</li>
 </ul>
 </div>
 

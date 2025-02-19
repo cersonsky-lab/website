@@ -28,7 +28,6 @@ with open("members/index.md", "w") as outf:
             "undergraduate researchers\n",
             "visitors and collaborators\n",
             "alumni\n",
-            #"end\n"
         ]:
             if n > 0:
                 s = f'\n\n<h2 style="text-align: center;"> {subtitle.title()}</h2>\n\n'
