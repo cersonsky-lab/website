@@ -23,6 +23,16 @@ layout: default
  width: 210px;
 }
 
+ul {
+ list-style-type: none;
+ padding: 0
+}
+
+li {
+ text-align: center;
+ font-size: 24px;
+}
+
 @media print, screen and (max-width: 1100px) {
  .profile-container {
   max-width: 450px
@@ -33,7 +43,7 @@ layout: default
 
 @media print, screen and (max-width: 960px) {
  .profile-container {
-  max-width: 700px;
+  max-width: 700px
  }
  .profile{
   width: 31%;
@@ -41,7 +51,7 @@ layout: default
 
 @media print, screen and (max-width: 720px) {
  .profile-container {
-  max-width: 450px;
+  max-width: 450px
  }
  .profile{
   width: 47%;
@@ -134,22 +144,15 @@ layout: default
 <h2 style="text-align: center;"> Alumni
 </h2>
 
-<div class="profile-container">
-<div class="profile">
-<a href="/members/saswat_kumar_nayak"><img src="/assets/img/saswat_kumar_nayak.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="/members/saswat_kumar_nayak">Saswat Kumar Nayak</a>
-</div>
-<div class="profile">
-<a href="/members/yong-cheol_cho"><img src="/assets/img/yong-cheol_cho.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="/members/yong-cheol_cho">Yong-Cheol Cho</a>
-</div>
-<div class="profile">
-<a href="/members/anna_claire_crowley"><img src="/assets/img/anna_claire_crowley.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="/members/anna_claire_crowley">Anna Claire Crowley</a>
-</div>
-<div class="profile">
-<a href="/members/seonwoo_hwang"><img src="/assets/img/seonwoo_hwang.jpg" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="/members/seonwoo_hwang">Seonwoo Hwang</a>
-</div>
-<div class="profile">
-<a href="/members/seungmin_henry_lee"><img src="/assets/img/seungmin_henry_lee.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="/members/seungmin_henry_lee">Seungmin Henry Lee</a>
-</div>
+<div class="container">
+<ul>
+	<li>Yong-Cheol Cho</li>
+	<li>Anna Claire Crowley</li>
+	<li>Seonwoo Hwang</li>
+	<li>Seungmin Henry Lee</li>
+	<li>Tryston McCaskill</li>
+	<li>Saswat Kumar Nayak</li>
+</ul>
 </div>
 
 

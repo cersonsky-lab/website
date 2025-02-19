@@ -6,6 +6,8 @@ with open("members/index.md", "w") as outf:
                " justify-content: center;\n align-items: center;\n gap: 25px 10px;\n max-width: 700px;\n"
                " margin-left: auto;\n margin-right: auto;\n margin-top: 20px;\n margin-bottom: 20px;\n}\n"
                ".profile {\n text-align: center;\n width: 210px;\n}\n\n"
+               "ul {\n list-style-type: none;\n padding: 0\n}\n\n"
+               "li {\n text-align: center;\n font-size: 24px;\n}\n\n"
                "@media print, screen and (max-width: 1100px) {\n .profile-container {\n  max-width: 450px\n }\n"
                " .profile{\n  width: 47%;\n }\n\n"
                "@media print, screen and (max-width: 960px) {\n .profile-container {\n  max-width: 700px\n }\n"
@@ -26,7 +28,7 @@ with open("members/index.md", "w") as outf:
             "undergraduate researchers\n",
             "visitors and collaborators\n",
             "alumni\n",
-            "end\n"
+            #"end\n"
         ]:
             if n > 0:
                 s = f'\n\n<h2 style="text-align: center;"> {subtitle.title()}</h2>\n\n'
@@ -57,6 +59,27 @@ with open("members/index.md", "w") as outf:
                             )
                         images += f'<div class="profile">\n<a href="/members/{peepcodes[j]}"><img src="/assets/img/{peepcodes[j]}.{ext}" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="/members/{peepcodes[j]}">{peeps[j]}</a>\n</div>\n'
                 images += "</div>\n"
+                outf.write(images)
+                outf.write("\n\n------\n")
+            n = 0
+            subtitle = line
+            peeps = []
+            peepcodes = []
+        elif line in [
+            "end\n"
+        ]:
+            if n > 0:
+                s = f'\n\n<h2 style="text-align: center;"> {subtitle.title()}</h2>\n\n'
+                skip = n
+                outf.write(s)
+                outf.write('<div class="container">\n<ul>\n')
+                images = ""
+                for j in range(len(peeps)):
+                    if j < len(peeps):
+                        images += f'\t<li>{peeps[j]}</li>\n'
+                        #images += f'<div class="profile">\n<a href="/members/{peepcodes[j]}"></a><br><a href="/members/{peepcodes[j]}">{peeps[j]}</a>\n</div>\n'
+                #images += 
+                images += "</ul>\n</div>\n"
                 outf.write(images)
                 outf.write("\n\n------\n")
             n = 0
