@@ -14,10 +14,10 @@ The Cersonsky group is interested in leveraging data science and molecular simul
 
 <strong>Molecular Simulation</strong>
 <ul>
-    <li>For Glasses: Charles Carroll</li>
-    <li>For Colloidal Phases: Hwigwang Lim & Caleb Youngwerth</li>
-    <li>For Ionic Liquids: Lisa Je</li>
-    <li>For Melting: Matthew Reuteman</li>
+    <li>For Glasses: <a href="/members/charles_carroll">Charles Carroll</a></li>
+    <li>For Colloidal Phases: <a href="/members/hwigwang_lim">Hwigwang Lim</a> & <a href="/members/caleb_youngwerth">Caleb Youngwerth</a></li>
+    <li>For Ionic Liquids: <a href="/members/lisa_je">Lisa Je</a></li>
+    <li>For Melting: <a href="/members/matthew_reuteman">Matthew Reuteman</a></li>
     <li>For Biological Systems: Zachary Amsterdam</li>
 </ul>
 
