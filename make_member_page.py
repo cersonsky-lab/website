@@ -76,8 +76,6 @@ with open("members/index.md", "w") as outf:
                 for j in range(len(peeps)):
                     if j < len(peeps):
                         images += f'\t<li>{peeps[j]}</li>\n'
-                        #images += f'<div class="profile">\n<a href="/members/{peepcodes[j]}"></a><br><a href="/members/{peepcodes[j]}">{peeps[j]}</a>\n</div>\n'
-                #images += 
                 images += "</ul>\n</div>\n"
                 outf.write(images)
                 outf.write("\n\n------\n")
