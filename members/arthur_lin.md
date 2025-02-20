@@ -10,28 +10,28 @@ layout: default
  flex-wrap: wrap;
  justify-content: center;
  align-items: center;
- gap: 25px 10px;
- max-width: 700px;
+ gap: 15px 15px;
+ max-width: 100%;
  margin-left: auto;
  margin-right: auto;
  margin-top: 20px;
  margin-bottom: 20px;
 }
 .extra {
- max-width: 45%;
  object-fit: cover;
  text-align: center;
+ max-width: 20em;
+ max-height: 24em;
 }
 .profile {
- width: 25em;
+ width: 32em;
+ height: 32em;
+ object-fit: cover;
 }
 
 @media print, screen and (max-width: 720px) {
  .profile {
   width: 100%;
- }
- .extra {
-  max-width: 100%;
  }
 }
 
@@ -45,19 +45,21 @@ layout: default
 # **Arthur Lin (2023 - present)**
 
 <!-- Choose your title -- feel free to be professionally silly -->
-**Role in the Cersonsky Lab**: Graduate Student Researcher, Lab Safety Officer
+**Role in the Cersonsky Lab**\
+Graduate Student Researcher, Lab Safety Officer
 
 <!-- Name at least one research topic amongst this list -->
-**Things I'm excited about right now**: Elegant, multiscale structural representations.
+**Things I'm excited about right now**\
+Elegant, multiscale structural representations.
 
 <!-- Ultimately, we'll use this section to
      include papers and talks, and contributions
      But for now put whatever you want -->
-**Cool stuff I've done**: 
+**Cool stuff I've done**
 * Bellyflop off a small cliff
 * Eat a ghost pepper
 
-**Publications**:
+**Publications**
 - Lin, A.; Huguenin-Dumittan, K. K.; Cho, Y.-C.; Nigam, J.; Cersonsky, R. K. Expanding Density-Correlation Machine Learning Representations for Anisotropic Coarse-Grained Particles. The Journal of Chemical Physics **2024**, 161 (7), 074112.  
 
 
@@ -67,8 +69,8 @@ layout: default
      and replace example_student below -->
 
 <div class="profile-container">
-<div class="extra">
-<img src='/assets/img/arthur_lin_1.gif'> 
+<div>
+<img src='/assets/img/arthur_lin_1.gif' class="extra"> 
 </div>
 </div>
 
