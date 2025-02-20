@@ -26,7 +26,7 @@ layout: default
 
 |      |
 |:----:|
-|![](/assets/img/example_student_1.png) | 
+|![](/assets/img/matthew_reuteman_1.png) | 
 
 
 
