@@ -30,7 +30,6 @@ ul {
 
 li {
  text-align: center;
- font-size: 24px;
 }
 
 @media print, screen and (max-width: 1100px) {
