@@ -57,7 +57,7 @@ I am excited to finally begin research in the Cersonsky Lab!
      But for now put whatever you want -->
 
 **Cool stuff I've done**\
-I won the 50th Anniversary Parathenon Gyro Eating Contest.
+I won the 50th Anniversary Parthenon Gyro Eating Contest.
 
 <!-- If you have photos you would like to exhibit,
      save them as `/assets/member_images/your_name_photo_#.png`
