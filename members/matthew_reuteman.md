@@ -17,7 +17,7 @@ layout: default
 <!-- Ultimately, we'll use this section to
      include papers and talks, and contributions
      But for now put whatever you want -->
-**Cool stuff I've done**: I won the 50th AnniversaryParathenon Gyro Eating Contest.
+**Cool stuff I've done**: I won the 50th Anniversary Parathenon Gyro Eating Contest.
 
 
 <!-- If you have photos you would like to exhibit,
