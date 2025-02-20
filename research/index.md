@@ -23,6 +23,6 @@ The Cersonsky group is interested in leveraging data science and molecular simul
 
 <strong>Chemistry as Data</strong>
 <ul>
-    <li>PCovR/PCovC: Christian Jorgensen & Arthur Lin</li>
-    <li>TDA: Ethan Deutsch & Lisa Je</li>
+    <li>PCovR/PCovC: <a href="/members/christian_jorgensen">Christian Jorgensen</a> & <a href="/members/arthur_lin">Arthur Lin</a></li>
+    <li>TDA: Ethan Deutsch & <a href="/members/lisa_je">Lisa Je</a></li>
 </ul>
