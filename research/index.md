@@ -7,9 +7,9 @@ The Cersonsky group is interested in leveraging data science and molecular simul
 # Areas of Interest
 <strong>Machine Learning</strong>
 <ul>
-    <li>For Crystal Structure Prediction: Christian Jorgensen & Grace Lee</li>
-    <li>Molecular Representations and Coarse Graining: Arthur Lin & Lucas Ortengren</li>
-    <li>Machine Learning Potentials: Natalie Hooven</li>
+    <li>For Crystal Structure Prediction: <a href="/members/christian_jorgensen">Christian Jorgensen</a> & <a href="/members/grace_lee">Grace Lee</a></li>
+    <li>Molecular Representations and Coarse Graining: <a href="/members/arthur_lin">Arthur Lin</a> & <a href="/members/lucas_ortengren">Lucas Ortengren</a></li>
+    <li>Machine Learning Potentials: <a href="/members/natalie_hooven">Natalie Hooven</a></li>
 </ul>
 
 <strong>Molecular Simulation</strong>
