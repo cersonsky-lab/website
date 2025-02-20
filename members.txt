@@ -29,5 +29,4 @@ alumni
  - Seungmin Henry Lee
  - Tryston McCaskill
 
-
 end
