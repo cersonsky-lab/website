@@ -9,15 +9,15 @@ layout: default
 # **Matthew Retueman (2024 - present)**
 
 <!-- Choose your title -- feel free to be professionally silly -->
-**Role in the Cersonsky Lab**: I am an undergraduate researcher.
+**Role in the Cersonsky Lab**: I am an undergraduate researcher and guardian of the instructions on how to add your page to the website.
 
 <!-- Name at least one research topic amongst this list -->
-**Things I'm excited about right now**: I am excited to finally begin research in the Cersonsky Lab!
+**Things I'm excited about right now**: I am excited to achieve an accurate and general melting simulation for any given crystal!
 
 <!-- Ultimately, we'll use this section to
      include papers and talks, and contributions
      But for now put whatever you want -->
-**Cool stuff I've done**: I won the 50th AnniversaryParathenon Gyro Eating Contest.
+**Cool stuff I've done**: I've been to Iceland and I am excited to travel to Spain this summer!
 
 
 <!-- If you have photos you would like to exhibit,
@@ -26,8 +26,4 @@ layout: default
 
 |      |
 |:----:|
-|![](/assets/img/example_student_1.png) | 
-
-
-
-
+|![](/assets/img/matthew_reuteman_1.png) | ![](/assets/img/matthew_reuteman_2.png) |
