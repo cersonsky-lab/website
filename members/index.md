@@ -101,6 +101,9 @@ li {
 
 <div class="profile-container">
 <div class="profile">
+<a href="/members/zachary_amsterdam"><img src="/assets/img/zachary_amsterdam.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="/members/zachary_amsterdam">Zachary Amsterdam</a>
+</div>
+<div class="profile">
 <a href="/members/natalie_hooven"><img src="/assets/img/natalie_hooven.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="/members/natalie_hooven">Natalie Hooven</a>
 </div>
 <div class="profile">
