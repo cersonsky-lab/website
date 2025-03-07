@@ -65,8 +65,8 @@ I've gotten some working molecular dynamics simulations completed, created many 
 
 <div class="profile-container">
 <div>
-<img src="{{ site.baseurl }}/assets/img/caleb_youngwerth_1.png" class="extra"> 
-<img src="{{ site.baseurl }}/assets/img/caleb_youngwerth_2.png" class="extra"> 
-<img src="{{ site.baseurl }}/assets/img/caleb_youngwerth_3.png" class="extra"> 
+<img src="{{ site.baseurl }}/assets/img/caleb_youngwerth_1.JPG" class="extra"> 
+<img src="{{ site.baseurl }}/assets/img/caleb_youngwerth_2.jpg" class="extra"> 
+<img src="{{ site.baseurl }}/assets/img/caleb_youngwerth_3.jpg" class="extra"> 
 </div>
 </div>
