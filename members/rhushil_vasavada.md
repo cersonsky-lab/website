@@ -56,7 +56,7 @@ Working on scikit-matter!
      include papers and talks, and contributions
      But for now put whatever you want -->
 **Cool stuff I've done**\
-Made some [stop motion films](https://www.youtube.com/@rhushil), created clay sculptures and paintings, and developed interesting [AI programs](https://github.com/generalAlkazer).
+Made some [stop motion films](https://www.youtube.com/@rhushil), created clay sculptures and paintings, and developed cool [AI programs](https://github.com/rvasav26).
 
 <!-- If you have photos you would like to exhibit,
      save them as `/assets/member_images/your_name_photo_#.png`
