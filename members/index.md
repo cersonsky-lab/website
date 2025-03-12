@@ -113,6 +113,9 @@ li {
 <a href="/members/matthew_reuteman"><img src="/assets/img/matthew_reuteman.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="/members/matthew_reuteman">Matthew Reuteman</a>
 </div>
 <div class="profile">
+<a href="/members/rhushil_vasavada"><img src="/assets/img/rhushil_vasavada.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="/members/rhushil_vasavada">Rhushil Vasavada</a>
+</div>
+<div class="profile">
 <a href="/members/caleb_youngwerth"><img src="/assets/img/caleb_youngwerth.jpg" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="/members/caleb_youngwerth">Caleb Youngwerth</a>
 </div>
 </div>
