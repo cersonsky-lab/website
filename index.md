@@ -39,9 +39,9 @@ While you're here, check out <a href="/members">our fantastic members</a>!
   </style>
 
 <!-- This code displays the news bulletin itself:
-* To add posts to the news bulletin, add a new section to internal/newsposts.json
-* To add an image to the post, add your image to assests/news and link it appropriately in the newspost.json post
-* The .json is a little annoying but I could not figure out a better way to do it-->
+* To add posts to the news bulletin, add a new section in the internal/newsposts.json file
+* To add an image to the post, add your image to assests/news and link it appropriately in the newspost.json section
+* The posts in the .json file are loaded top to bottom, so the top post will be loaded at the top (i.e. most recent post)-->
 
 <div class="news-bulletin">
   <h1>Lab News!</h1>
