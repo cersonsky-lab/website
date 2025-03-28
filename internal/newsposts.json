@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Website Launch!",
+    "date": "2025-03-28",
+    "content": "We just launched our website. Stay tuned for updates!",
+    "image": "assets/news/testerImage1.png"
+  },
+  {
+    "title": "Website Launch!",
+    "date": "2025-03-25",
+    "content": "We just launched our website. Stay tuned for updates! \n Wow there is so much text in this one that is crazy what are we going to do with all this text uhhhhh how do I add a newline",
+    "image": "assets/news/testerImage1.png"
+  },
+  {
+    "title": "Website Launch!",
+    "date": "2025-03-25",
+    "content": "We just launched our website. Stay tuned for updates! \n Wow there is so much text in this one that is crazy what are we going to do with all this text uhhhhh how do I add a newline",
+    "image": "assets/news/testerImage1.png"
+  },
+    {
+    "title": "Website Launch!",
+    "date": "2025-03-25",
+    "content": "We just launched our website. Stay tuned for updates! \n Wow there is so much text in this one that is crazy what are we going to do with all this text uhhhhh how do I add a newline",
+    "image": "assets/img/example_student_1.png"
+  },
+  {
+    "title": "New Paper Waow!",
+    "date": "2024-08-20",
+    "content": "Check out the new paper: <a href='https://pubs.aip.org/aip/jcp/article/161/7/074112/3308992/Expanding-density-correlation-machine-learning' target='_blank'>Expanding density-correlation machine learning representations for anisotropic coarse-grained particles</a>",
+    "image": "assets/news/testerImage1.png"
+  }
+]
