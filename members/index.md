@@ -82,6 +82,9 @@ li {
 <a href="/members/charles_carroll"><img src="/assets/img/charles_carroll.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="/members/charles_carroll">Charles Carroll</a>
 </div>
 <div class="profile">
+<a href="/members/ethan_deutsch"><img src="/assets/img/ethan_deutsch.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="/members/ethan_deutsch">Ethan Deutsch</a>
+</div>
+<div class="profile">
 <a href="/members/christian_jorgensen"><img src="/assets/img/christian_jorgensen.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="/members/christian_jorgensen">Christian Jorgensen</a>
 </div>
 <div class="profile">
