@@ -6,10 +6,10 @@ This page is a summary of our work-life balance where we engage in shenanigans a
 
 # **2025**
 ### Joyful group outing at Schwoegler Park Towne Lanes. Complete with curds, gutter guards, and "trick shot," who beat more people at bowling than it is polite to mention. (March 2025)
-<img src="./imgs/2025_Group_Social/20250331_154902.jpg" style="max-height: 100px">
-<img src="./imgs/2025_Group_Social/20250331_154941(0).jpg" style="max-height: 100px">
-<img src="./imgs/2025_Group_Social/20250331_150425.jpg" style="max-height: 100px">
-<img src="./imgs/2025_Group_Social/20250331_145351.jpg" style="max-height: 100px">
+<img src="./imgs/2025_Group_Social/20250331_154902.jpg" style="max-height: 250px">
+<img src="./imgs/2025_Group_Social/20250331_154941(0).jpg" style="max-height: 250px">
+<img src="./imgs/2025_Group_Social/20250331_150425.jpg" style="max-height: 250px">
+<img src="./imgs/2025_Group_Social/20250331_145351.jpg" style="max-height: 250px">
 
 # **2024**
 ### Group outing at Saigon Noodle, a local Vietnamese joint! (November 2024)
