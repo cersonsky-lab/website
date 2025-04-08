@@ -39,7 +39,7 @@ layout: default
 </head>
 
 <!-- Replace `example_student` with your name -->
-<img src="/assets/img/example_student.png" alt="Placeholder Image" class="center" style="max-width: 100%">
+<img src="/assets/img/example_student.png" alt="Placeholder Image" class="center profile">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Example Student (2023 - present)**
