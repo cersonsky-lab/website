@@ -3,7 +3,7 @@
 
 body {
   background-color: #fff;
-  padding: 20px 50px 50px 50px;
+  padding: 35px 50px 50px 50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
@@ -219,6 +219,12 @@ footer {
   position:fixed;
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
+}
+
+@media print, screen and (max-height: 715px) {
+  header, section, footer {
+    position:static;
+  }
 }
 
 @media print, screen and (max-width: 960px) {
