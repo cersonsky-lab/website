@@ -18,11 +18,11 @@ The Cersonsky group is interested in leveraging data science and molecular simul
     <li>For Colloidal Phases: <a href="/members/hwigwang_lim">Hwigwang Lim</a> & <a href="/members/caleb_youngwerth">Caleb Youngwerth</a></li>
     <li>For Ionic Liquids: <a href="/members/lisa_je">Lisa Je</a></li>
     <li>For Melting: <a href="/members/matthew_reuteman">Matthew Reuteman</a></li>
-    <li>For Biological Systems: Zachary Amsterdam</li>
+    <li>For Biological Systems:<a href="/members/zachary_amsterdam">Zachary Amsterdam</a></li>
 </ul>
 
 <strong>Chemistry as Data</strong>
 <ul>
     <li>PCovR/PCovC: <a href="/members/christian_jorgensen">Christian Jorgensen</a> & <a href="/members/arthur_lin">Arthur Lin</a></li>
-    <li>TDA: Ethan Deutsch & <a href="/members/lisa_je">Lisa Je</a></li>
+    <li>TDA: <a href="/members/ethan_deutsch">Ethan Deutsch</a> & <a href="/members/lisa_je">Lisa Je</a></li>
 </ul>
