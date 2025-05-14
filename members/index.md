@@ -157,6 +157,7 @@ li {
 	<li>Seonwoo Hwang</li>
 	<li>Seungmin Henry Lee</li>
 	<li>Tryston McCaskill</li>
+    <li>Grace Lee</li>
 </ul>
 </div>
 
