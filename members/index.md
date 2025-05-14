@@ -110,9 +110,6 @@ li {
 <a href="/members/natalie_hooven"><img src="/assets/img/natalie_hooven.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="/members/natalie_hooven">Natalie Hooven</a>
 </div>
 <div class="profile">
-<a href="/members/grace_lee"><img src="/assets/img/grace_lee.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="/members/grace_lee">Grace Lee</a>
-</div>
-<div class="profile">
 <a href="/members/lucas_ortengren"><img src="/assets/img/lucas_ortengren.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="/members/lucas_ortengren">Lucas Ortengren</a>
 </div>
 <div class="profile">
