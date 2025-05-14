@@ -12,7 +12,7 @@ While you're here, check out <a href="/members">our fantastic members</a>!
 <style>
 .news-bulletin {
     max-width: 700px;
-    max-height: 1000px;  /* Set the maximum height */
+    /* max-height: 1000px;  /* Set the maximum height */
     margin-right: auto;
     padding: 20px;
     background-color: #f9f9f9;
@@ -39,7 +39,7 @@ While you're here, check out <a href="/members">our fantastic members</a>!
   </style>
 
 <!-- This code displays the news bulletin itself:
-* To add posts to the news bulletin, add a new section in the internal/newsposts.json file
+* To add posts to the news bulletin, add a new section to the top of internal/newsposts.json file
 * To add an image to the post, add your image to assests/news and link it appropriately in the newspost.json section
 * The posts in the .json file are loaded top to bottom, so the top post will be loaded at the top (i.e. most recent post)-->
 
