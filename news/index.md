@@ -2,34 +2,31 @@
 layout: default
 ---
 
-# **Welcome to the webpage of the Cersonsky Lab!**
+# **Cersonsky Lab News**
 
-The Cersonsky group is interested in leveraging data science and molecular simulation to explore molecular systems with changing and complex phase behavior. This research aims to address pertinent fundamental and applied open problems in computational chemical and materials sciences, all to better our world. Our group is committed to conducting research that upholds the principles of open science and adheres to FAIR data standards.
+some sort of description
 
-While you're here, check out <a href="/members">our fantastic members</a>!
-
-<!-- The following is the style code for the news bulletin object on the landing page-->
+<!-- The following is the style code for the news bulletin object on the news page-->
 <style>
 .news-bulletin {
-  max-width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
   padding: 20px;
   background-color: white;
-  overflow-x: auto;
+  border-radius: 10px;
 }
 
 .news-container {
-  display: flex;
-  gap: 20px;
-  justify-content: start;
+  display: block; /* Stack items vertically */
 }
 
 .news-card {
-  flex-shrink: 0;
-  width: 250px;
+  margin-bottom: 20px;
   padding: 15px;
   background-color: white;
   border-radius: 10px;
   box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  border-left: 4px solid black; /* optional accent */
 }
 
 .news-card img {
@@ -46,7 +43,7 @@ While you're here, check out <a href="/members">our fantastic members</a>!
 * The posts in the .json file are loaded by date, so the correct dating of the posts matters!-->
 
 <div class="news-bulletin">
-  <h1><a href="/news">Recent News:</a></h1>
+  <!--<h1>Recent News:</h1>-->
   <div id="news-list" class="news-container"></div>
 </div>
 
@@ -56,11 +53,9 @@ While you're here, check out <a href="/members">our fantastic members</a>!
     .then(data => {
       const newsList = document.getElementById('news-list');
 
-      // Sort by date (most recent first)
+      // Sort by most recent date
       data.sort((a, b) => new Date(b.date) - new Date(a.date));
-
-      // Slice top 4 posts, here is where you can change the number of posts to be featured
-      const latestNews = data.slice(0, 4);
+      const latestNews = data;
 
       latestNews.forEach(post => {
         const card = document.createElement('div');
@@ -68,8 +63,8 @@ While you're here, check out <a href="/members">our fantastic members</a>!
         card.innerHTML = `
           <strong>${post.title}</strong><br>
           <em>${post.date}</em>
-          ${post.image ? `<img src="${post.image}" alt="${post.title}">` : ''}
           <p>${post.content}</p>
+          ${post.image ? `<img src="${post.image}" alt="${post.title}">` : ''}
         `;
         newsList.appendChild(card);
       });
