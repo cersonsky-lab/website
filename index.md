@@ -12,20 +12,22 @@ While you're here, check out <a href="/members">our fantastic members</a>!
 <style>
 .news-bulletin {
   max-width: 100%;
-  padding: 20px;
+  padding: 10px;
   background-color: white;
   overflow-x: auto;
 }
 
 .news-container {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
-  justify-content: start;
+  justify-content: space-around;
 }
 
 .news-card {
   flex-shrink: 0;
   width: 250px;
+  height: 380px;
   padding: 15px;
   background-color: white;
   border-radius: 10px;
@@ -33,11 +35,11 @@ While you're here, check out <a href="/members">our fantastic members</a>!
 }
 
 .news-card img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 200px;
   border-radius: 8px;
   margin-top: 10px;
-}
+  object-fit: cover;
 </style>
 
 <!-- This code displays the news bulletin itself:
@@ -69,7 +71,7 @@ While you're here, check out <a href="/members">our fantastic members</a>!
           <strong>${post.title}</strong><br>
           <em>${post.date}</em>
           ${post.image ? `<img src="${post.image}" alt="${post.title}">` : ''}
-          <p>${post.content}</p>
+          <p style="display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical;overflow: hidden;">${post.content}</p>
         `;
         newsList.appendChild(card);
       });

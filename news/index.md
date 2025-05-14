@@ -9,7 +9,7 @@ some sort of description
 <!-- The following is the style code for the news bulletin object on the news page-->
 <style>
 .news-bulletin {
-  max-width: 600px;
+  max-width: 90%;
   margin: 0 auto;
   padding: 20px;
   background-color: white;
@@ -21,6 +21,10 @@ some sort of description
 }
 
 .news-card {
+  display: grid;
+  grid-template-columns: 300px auto;
+  max-width: 100%;
+  height: 300px;
   margin-bottom: 20px;
   padding: 15px;
   background-color: white;
@@ -29,11 +33,26 @@ some sort of description
   border-left: 4px solid black; /* optional accent */
 }
 
-.news-card img {
-  max-width: 100%;
-  height: auto;
+.news-title {
+  grid-column: 1 / span 2;
+}
+
+.news-title strong{
+  font-size:20px;
+}
+
+.news-image {
+  max-width: 280px;
+  max-height: 220px;
   border-radius: 8px;
   margin-top: 10px;
+  object-fit: cover;
+}
+
+.news-content{
+  border-radius: 8px;
+  margin-top: 10px;
+  overflow: auto;
 }
 </style>
 
@@ -61,10 +80,14 @@ some sort of description
         const card = document.createElement('div');
         card.className = 'news-card';
         card.innerHTML = `
-          <strong>${post.title}</strong><br>
-          <em>${post.date}</em>
-          <p>${post.content}</p>
-          ${post.image ? `<img src="${post.image}" alt="${post.title}">` : ''}
+	  <div class="news-title">
+            <strong>${post.title}</strong><br>
+            <em>${post.date}</em>
+	  </div>
+	    ${post.image ? `<div class="news-image"><img src="${post.image}" alt="${post.title}"></div>` : ''}
+	  <div class="news-content">
+            <p>${post.content}</p>
+	  </div>
         `;
         newsList.appendChild(card);
       });
