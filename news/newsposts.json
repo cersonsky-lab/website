@@ -1,32 +1,170 @@
 [
   {
-    "title": "Examples Title 1",
-    "date": "2025-03-28",
-    "content": "We just launched our website. Stay tuned for updates!",
-    "image": "/assets/news/testerImage1.png"
+    "title": "Professor Cersonsky named Conway Assistant Professor at UW-Madison",
+    "date": "07/1/2023",
+    "content": "",
+    "image": ""
   },
   {
-    "title": "Example Title 3",
-    "date": "2025-03-24",
-    "content": "Wow there is so much text in this one that is crazy what are we going to do with all this text uhhhhh how do I add a newline",
-    "image": "/assets/news/testerImage1.png"
+    "title": "Professor Cersonsky wins Victor K. LaMer Award from the ACS Colloids Division",
+    "date": "06/1/2021",
+    "content": "",
+    "image": ""
   },
   {
-    "title": "Example Title 4",
-    "date": "2025-03-23",
-    "content": "[delete this]",
-    "image": "/assets/img/example_student_1.png"
+    "title": "Professor Cersonsky named 35 under 35 in Materials Research by Matter",
+    "date": "07/1/2023",
+    "content": "",
+    "image": ""
   },
   {
-    "title": "New Paper Example",
-    "date": "2024-08-20",
-    "content": "Check out the new paper: <a href='https://pubs.aip.org/aip/jcp/article/161/7/074112/3308992/Expanding-density-correlation-machine-learning' target='_blank'>Expanding density-correlation machine learning representations for anisotropic coarse-grained particles</a> wow there is still a lot of text here this is to see what happens when we have a lot of text in the description and we want to see how it looks on the website",
-    "image": "/assets/news/testerImage1.png"
+    "title": "Professor Cersonsky speaks at University of Southampton",
+    "date": "05/1/2023",
+    "content": "",
+    "image": ""
   },
   {
-    "title": "Example Title 2",
-    "date": "2023-03-25",
-    "content": "Description 1",
-    "image": "/assets/news/testerImage1.png"
+    "title": "Professor Cersonsky delivers talk at University of Maryland on ML in chemistry",
+    "date": "05/1/2023",
+    "content": "",
+    "image": ""
+  },
+  {
+    "title": "Professor Cersonsky gives invited lecture at Iowa State University",
+    "date": "07/1/2023",
+    "content": "",
+    "image": ""
+  },
+  {
+    "title": "Professor Cersonsky delivers talk on molecular self-assembly at Aberystwyth University, UK",
+    "date": "08/1/2023",
+    "content": "",
+    "image": ""
+  },
+  {
+    "title": "Professor Cersonsky delivers invited seminar at APS Eastern Great Lakes Section Seminar",
+    "date": "10/1/2023",
+    "content": "",
+    "image": ""
+  },
+  {
+    "title": "Professor Cersonsky gives invited seminar at Trinity College Dublin",
+    "date": "10/1/2023",
+    "content": "",
+    "image": ""
+  },
+  {
+    "title": "Professor Cersonsky presents scikit-matter tools at ML Interatomic Potential School for Early Career Researchers",
+    "date": "11/1/2023",
+    "content": "",
+    "image": ""
+  },
+  {
+    "title": "Professor Cersonsky delivers speech at The International Symposium on Machine Learning in Quantum Chemistry",
+    "date": "11/1/2023",
+    "content": "",
+    "image": ""
+  },
+  {
+    "title": "Professor Cersonsky shares research at University of Wisconsin-Madison Materials Science Seminar",
+    "date": "12/1/2023",
+    "content": "",
+    "image": ""
+  },
+  {
+    "title": "Professor Cersonsky delivers invited talk at University of Illinois - Urbana/Champaign",
+    "date": "01/1/2024",
+    "content": "",
+    "image": ""
+  },
+  {
+    "title": "Professor Cersonsky gives seminar for University of Illinois- Urbana/Champaign Computation and Theory Subgroup",
+    "date": "01/1/2024",
+    "content": "",
+    "image": ""
+  },
+  {
+    "title": "Professor Cersonsky delivers presentation at University of Chicago's IMSI Machine Learning Force Fields workshop",
+    "date": "04/1/2024",
+    "content": "",
+    "image": ""
+  },
+  {
+    "title": "Professor Cersonsky gives departmental seminar at City University of New York's Chemical Engineering Department",
+    "date": "05/1/2024",
+    "content": "",
+    "image": ""
+  },
+  {
+    "title": "Professor Cersonsky presents work on the role of chemical representation in ML at the Midwest Thermodynamics and Statistical Mechanics Meeting 2024",
+    "date": "06/1/2024",
+    "content": "",
+    "image": ""
+  },
+  {
+    "title": "Professor Cersonsky delivers invited talk on open challenges in photonic crystal categorization at CECAM",
+    "date": "07/1/2024",
+    "content": "",
+    "image": ""
+  },
+  {
+    "title": "Professor Cersonsky highlights mesoscale ML advances at Gordon Research Conference on Computational Materials Science",
+    "date": "07/1/2024",
+    "content": "",
+    "image": ""
+  },
+  {
+    "title": "Professor Cersonsky's invited seminar on multi-objective chemical data visualization delivered by Arthur at FACSS SciX",
+    "date": "10/06/2024",
+    "content": "",
+    "image": ""
+  },
+  {
+    "title": "Professor Cersonsky's invited seminar on anisotropic ML representations presented by Arthur at Lennard-Jones Centre",
+    "date": "10/1/2024",
+    "content": "",
+    "image": ""
+  },
+  {
+    "title": "Arthur wins Travel award from APS Division of Computational Physics",
+    "date": "03/1/2024",
+    "content": "",
+    "image": ""
+  },
+  {
+    "title": "Caleb wins Student Presentation Award at APS Eastern Great Lakes Section Fall Meeting",
+    "date": "10/1/2024",
+    "content": "",
+    "image": ""
+  },
+  {
+    "title": "Caleb wins Sophomore Research Fellowship",
+    "date": "07/1/2024",
+    "content": "",
+    "image": ""
+  },
+  {
+    "title": "Natalie and Arthur give talks at APS March Meeting",
+    "date": "03/1/2024",
+    "content": "",
+    "image": ""
+  },
+  {
+    "title": "Professor Cersonsky presents at AI4Science Seminar Series at Chalmers University",
+    "date": "05/08/2025",
+    "content": "Check out the talk here: <a href='https://www.youtube.com/watch?v=LMVVjuH-j0E' target='_blank'> How data-driven studies translate into chemical and physical principles</a>",
+    "image": ""
+  },
+  {
+    "title": "Professor Cersonsky delivers departmental seminar at Johns Hopkins University",
+    "date": "04/02/2025",
+    "content": "",
+    "image": ""
+  },
+  {
+    "title": "Professor Cersonsky presents at Applied Physics Laboratory Seminar",
+    "date": "04/09/2025",
+    "content": "",
+    "image": ""
   }
 ]

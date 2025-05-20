@@ -4,8 +4,6 @@ layout: default
 
 # **Cersonsky Lab News**
 
-some sort of description
-
 <!-- The following is the style code for the news bulletin object on the news page-->
 <style>
 .news-bulletin {
@@ -24,7 +22,7 @@ some sort of description
   display: grid;
   grid-template-columns: 300px auto;
   max-width: 100%;
-  height: 300px;
+  max-height: 300px;
   margin-bottom: 20px;
   padding: 15px;
   background-color: white;
