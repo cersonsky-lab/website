@@ -1,51 +1,44 @@
-name: PR Preview (docs/website)
+name: Deploy PR Preview
 
 on:
   pull_request:
     branches:
-      - main  # Or your default branch
+      - main  # Adjust if needed
 
 jobs:
-  preview:
+  build-preview:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout main branch
+      - name: Checkout code
         uses: actions/checkout@v3
-        with:
-          ref: main
-          fetch-depth: 0  # Required for pushing
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'  # Use your actual version
+          ruby-version: '3.1'  # Adjust as needed
 
-      - name: Install Jekyll dependencies
+      - name: Install Jekyll deps
         run: |
           gem install bundler
           bundle install
 
-      - name: Build site for preview
-        run: bundle exec jekyll build --baseurl "/website/pr-preview/pr-${{ github.event.pull_request.number }}" --destination ./preview
-
-      - name: Copy preview into docs folder
+      - name: Build Jekyll site
         run: |
-          mkdir -p docs/website/pr-preview/pr-${{ github.event.pull_request.number }}
-          rm -rf docs/website/pr-preview/pr-${{ github.event.pull_request.number }}/*
-          cp -r preview/* docs/website/pr-preview/pr-${{ github.event.pull_request.number }}/
+          bundle exec jekyll build --baseurl "/website-previews/pr-${{ github.event.pull_request.number }}" --destination _site
 
-      - name: Commit preview
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add docs/website/pr-preview/pr-${{ github.event.pull_request.number }}
-          git commit -m "Add PR preview for #${{ github.event.pull_request.number }}" || echo "No changes to commit"
-          git push origin main
+      - name: Deploy to website-previews repo
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          external_repository: cersonsky-lab/website-previews
+          publish_dir: ./_site
+          publish_branch: gh-pages
+          destination_dir: pr-${{ github.event.pull_request.number }}
+          deploy_key: ${{ secrets.PREVIEW_DEPLOY_KEY }}
 
-      - name: Comment preview link on PR
+      - name: Comment on PR with preview URL
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           message: |
             🚀 Preview your site here:
-            https://cersonsky-lab.github.io/website/pr-preview/pr-${{ github.event.pull_request.number }}
+            https://cersonsky-lab.github.io/website-previews/pr-${{ github.event.pull_request.number }}
