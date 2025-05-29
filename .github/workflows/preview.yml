@@ -1,0 +1,42 @@
+name: Preview Deployment
+
+on:
+  pull_request:
+    branches:
+      - main  # or your default branch
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR code
+        uses: actions/checkout@v3
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1' # Match your Jekyll Ruby version
+
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+
+      - name: Build the site
+        run: bundle exec jekyll build -d ./_site
+
+      - name: Deploy preview to GitHub Pages (via Pages Deploy Action)
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          destination_dir: pr-preview/pr-${{ github.event.pull_request.number }}
+          publish_branch: gh-pages
+          
+    - name: Comment on PR with preview link
+      uses: marocchino/sticky-pull-request-comment@v2
+      with:
+        message: |
+          🚀 Preview your site here:
+          https://cersonsky-lab.github.io/pr-preview/pr-${{ github.event.pull_request.number }}
