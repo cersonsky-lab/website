@@ -121,6 +121,9 @@ li {
 <div class="profile">
 <a href="/members/caleb_youngwerth"><img src="/assets/img/caleb_youngwerth.jpg" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="/members/caleb_youngwerth">Caleb Youngwerth</a>
 </div>
+<div class="profile">
+<a href="/members/simon_hjaltason"><img src="/assets/img/simon_hjaltason.jpg" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="/members/simon_hjaltason">Simon Hjaltason</a>
+</div>
 </div>
 
 
@@ -157,7 +160,6 @@ li {
 	<li>Seonwoo Hwang</li>
 	<li>Seungmin Henry Lee</li>
 	<li>Tryston McCaskill</li>
-    <li>Grace Lee</li>
 </ul>
 </div>
 

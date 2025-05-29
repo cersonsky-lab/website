@@ -17,6 +17,7 @@ undergraduate researchers
  - Matthew Reuteman
  - Rhushil Vasavada
  - Caleb Youngwerth
+ - Simon Hjaltason
 
 visitors and collaborators
  - Lisa Je
