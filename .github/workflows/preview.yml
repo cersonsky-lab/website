@@ -36,9 +36,23 @@ jobs:
           destination_dir: pr-${{ github.event.pull_request.number }}
           deploy_key: ${{ secrets.PREVIEW_DEPLOY_KEY }}
 
-      - name: Comment on PR with preview URL
+      - name: Wait for GitHub Pages deployment to propagate
+        run: |
+          echo "Checking preview URL: https://cersonsky-lab.github.io/website-previews/pr-${{ github.event.pull_request.number }}/"
+          for i in {1..10}; do
+            http_status=$(curl -o /dev/null -s -w "%{http_code}\n" https://cersonsky-lab.github.io/website-previews/pr-${{ github.event.pull_request.number }}/)
+            if [ "$http_status" -eq 200 ]; then
+              echo "Preview is live!"
+              break
+            else
+              echo "Waiting... ($i)"
+              sleep 10
+            fi
+          done
+
+      - name: Comment on PR with preview link
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           message: |
-            🚀 Preview your site here:
+            🚀 Preview your site is ready:
             https://cersonsky-lab.github.io/website-previews/pr-${{ github.event.pull_request.number }}
