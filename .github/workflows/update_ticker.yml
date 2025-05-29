@@ -1,0 +1,38 @@
+name: Update Last Updated in PR
+
+on:
+  pull_request:
+    types: [synchronize, opened, reopened]
+
+jobs:
+  update-last-updated:
+    runs-on: ubuntu-latest
+
+    if: github.event.pull_request.head.repo.full_name == github.repository
+
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Git config
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+      - name: Update 'Last Updated' date
+        run: |
+          today=$(date +"%-m/%-d/%Y")
+          sed -i -E "s|(Last Updated:).*|\1 $today|" _layouts/default.html
+
+      - name: Commit and push changes to PR branch
+        run: |
+          git add _layouts/default.html
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: auto-update 'Last Updated' to $today"
+            git push origin HEAD
+          fi
