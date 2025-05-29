@@ -1,40 +1,46 @@
-name: Preview Deployment
+name: PR Preview (docs/website)
 
 on:
   pull_request:
     branches:
-      - main  # or your default branch
+      - main  # Or your default branch
 
 jobs:
-  build-deploy:
+  preview:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout PR code
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'  # Replace with your version
+          ruby-version: '3.1'  # Use your actual version
 
-      - name: Install dependencies
+      - name: Install Jekyll dependencies
         run: |
           gem install bundler
           bundle install
 
-      - name: Build the site with dynamic baseurl
-        run: bundle exec jekyll build --baseurl "/website/pr-preview/pr-${{ github.event.pull_request.number }}"
+      - name: Build site for preview
+        run: bundle exec jekyll build --baseurl "/website/pr-preview/pr-${{ github.event.pull_request.number }}" --destination ./preview
 
-      - name: Deploy preview to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-          destination_dir: website/pr-preview/pr-${{ github.event.pull_request.number }}
-          publish_branch: gh-pages
+      - name: Copy preview into docs folder
+        run: |
+          mkdir -p docs/website/pr-preview/pr-${{ github.event.pull_request.number }}
+          rm -rf docs/website/pr-preview/pr-${{ github.event.pull_request.number }}/*
+          cp -r preview/* docs/website/pr-preview/pr-${{ github.event.pull_request.number }}/
 
-      - name: Comment on PR with preview link
+      - name: Commit preview
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add docs/website/pr-preview/pr-${{ github.event.pull_request.number }}
+          git commit -m "Add PR preview for #${{ github.event.pull_request.number }}" || echo "No changes to commit"
+          git push origin main
+
+      - name: Comment preview link on PR
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           message: |
