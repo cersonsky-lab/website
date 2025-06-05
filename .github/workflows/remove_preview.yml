@@ -10,13 +10,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout website-previews repo
+      - name: Checkout website-previews repo via SSH
         uses: actions/checkout@v3
         with:
           repository: cersonsky-lab/website-previews
           ref: gh-pages
-          token: ${{ secrets.PREVIEW_DEPLOY_KEY }}
+          ssh-key: ${{ secrets.PREVIEW_DEPLOY_KEY }}
           path: preview_repo
+
 
       - name: Remove preview folder for PR
         run: |
