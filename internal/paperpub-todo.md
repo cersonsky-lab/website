@@ -4,7 +4,7 @@ layout: default
 
 ### Congratulations on publishing your paper! Please follow these steps to promote your work.
 
-1. Create a post on LinkedIn that includes an accesible visualization and description of your work.
+1. Draft a post on LinkedIn that includes an accesible visualization and description of your work. Share this with Rosy and all co-authors to chat about before posting.
 2. Contact the CBE communications specialist [Claire Massey](https://directory.engr.wisc.edu/che/Staff/Massey_Claire/) about your work. She may update the CBE Department website with your work!
 3. Update the [Publications](/publications/) section of the group website.
 4. Update each member's page with the publication.
