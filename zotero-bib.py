@@ -52,8 +52,7 @@ for item in reversed(sorted(items, key=lambda item: read_date(item.get('date', 0
             s += f' [Link]({data["url"]})'
 
         s+= '.\n'
-        print(data['itemType'], [k for k in data.keys() if check_key(data, k)])
-        print(s)
+        
         entries[year].append(s)
 
 with open(OUTPUT_FILE, 'w') as outf:
