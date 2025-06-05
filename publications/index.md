@@ -17,7 +17,7 @@ layout: default
 
 2023
 ----
-**Open Dataset**: - **Lattice energies and relaxed geometries for 2'707 organic molecular crystals and their 3'242 molecular components.** – _**RKC**_, Maria Pakhnova, Edgar Engel, Michele Ceriotti [Link](https://archive.materialscloud.org/record/2023.5).
+- **Open Dataset** - **Lattice energies and relaxed geometries for 2'707 organic molecular crystals and their 3'242 molecular components.** – _**RKC**_, Maria Pakhnova, Edgar Engel, Michele Ceriotti [Link](https://archive.materialscloud.org/record/2023.5).
 - **35+1 Challenges In Materials Science Being Tackled by PIs Under 35(ish) in 2023** – Monica Allen, Kwabena Bediako, William Bowman, Michelle Calabrese, Lucas Caretta, _**RKC**_, Wen Chen, Santiago Correa, Rachel Davidson, Leora Dresselhaus-Marais, Carissa N. Eisler, Ariel Furst, Ting Ge, Andrew Hook, Yi-Ting Hsu, Chunjing Jia, Jianfeng Lu, Alessandro Lunghi, Marco Messina, Ivan A. Moreno-Hernandez, Eva Nichols, Reshma Rao, Martin Seifrid, Katherine Emily Shulenberger, Alexandr Simonov, Xiao Su, Dayne Swearer, Evelyn Tang, Mercedes Taylor, Helen Tran, Gustavo Trindade, Ryan Truby, Hendrik Utzat, Ying Yang, Darryl W. Yee, Shenlong Zhao, Steve Cranford, **Matter** **6** (8), 2480-2487 [Link](https://www.sciencedirect.com/science/article/pii/S2590238523003570).
 - **Placental lesions associated with stillbirth by gestational age, according to feature importance: Results from the stillbirth collaborative research network** –  , _**RKC**_, George R. Saade, Robert M. Silver, Uma M. Reddy, Robert L. Goldenberg, Donald J. Dudley, Halit Pinar, **Placenta** **137**, 59-64 [Link](https://linkinghub.elsevier.com/retrieve/pii/S0143400423000760).
 - **A data-driven interpretation of the stability of organic molecular crystals** – _**RKC**_, Maria Pakhnova, Edgar A. Engel, Michele Ceriotti, **Chemical Science** **14** (5), 1272-1285 [Link](http://xlink.rsc.org/?DOI=D2SC06198H).
@@ -33,12 +33,12 @@ layout: default
 2021
 ----
 - **Improving sample and feature selection with principal covariates regression** – _**RKC**_, Benjamin A Helfrecht, Edgar A Engel, Sergei Kliavinek, Michele Ceriotti, **Machine Learning: Science and Technology** **2** (3), 035038 [Link](https://iopscience.iop.org/article/10.1088/2632-2153/abfe7c).
-**Open Dataset**: - **The Diversity of Three-Dimensional Photonic Crystals** – _**RKC**_, J. A. Antonaglia, B. D. Dice, S.C. Glotzer [Link](https://glotzerlab.engin.umich.edu/photonics/index.html).
+- **Open Dataset** - **The Diversity of Three-Dimensional Photonic Crystals** – _**RKC**_, J. A. Antonaglia, B. D. Dice, S.C. Glotzer [Link](https://glotzerlab.engin.umich.edu/photonics/index.html).
 - **The diversity of three-dimensional photonic crystals** – _**RKC**_, James Antonaglia, Bradley D. Dice, Sharon C. Glotzer, **Nature Communications** **12** (1), 2543 [Link](https://www.nature.com/articles/s41467-021-22809-6).
 
 2020
 ----
-**Open Dataset**: - **Structure-property maps with kernel principal covariates regression** – Benjamin A. Helfrecht, _**RKC**_, Guillaume Fraux, Michele Ceriotti [Link](https://archive.materialscloud.org/record/2020.80).
+- **Open Dataset** - **Structure-property maps with kernel principal covariates regression** – Benjamin A. Helfrecht, _**RKC**_, Guillaume Fraux, Michele Ceriotti [Link](https://archive.materialscloud.org/record/2020.80).
 - **Structure-property maps with kernel principal covariates regression** – Benjamin A Helfrecht, _**RKC**_, Guillaume Fraux, Michele Ceriotti, **Machine Learning: Science and Technology** **1** (4), 045021 [Link](https://iopscience.iop.org/article/10.1088/2632-2153/aba9ef).
 - **Chemiscope: interactive structure-property explorer for materials and molecules** – Guillaume Fraux, _**RKC**_, Michele Ceriotti, **Journal of Open Source Software** **5** (51), 2117 [Link](https://joss.theoj.org/papers/10.21105/joss.02117).
 - **Paper: Bringing Science Education and Research together to REACT** – Alyssa Travitz, Ayse Muniz, Joanne Beckwith, _**RKC**_, 35030 [Link](http://peer.asee.org/35030).

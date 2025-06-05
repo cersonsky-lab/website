@@ -45,7 +45,7 @@ for item in reversed(sorted(items, key=lambda item: read_date(item.get('date', 0
             s += f', {data["pages"]}'
         if check_key(data, 'itemType'):
             if data['itemType'] == 'dataset':
-                s = '**Open Dataset**: ' + s
+                s = '- **Open Dataset** ' + s
         if check_key(data, 'url'):
             if 'arxiv' in data['url']:
                 s+= ', _Preprint_'
