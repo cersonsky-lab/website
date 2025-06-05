@@ -36,9 +36,9 @@ for item in reversed(sorted(items, key=lambda item: read_date(item.get('date', 0
         authors = ", ".join(format_name(c) for c in creators)
         s = f"- **{title}** – {authors}"
         if check_key(data, 'publicationTitle'):
-            s += f', **{data["publicationTitle"]}**'
+            s += f', _{data["publicationTitle"]}_'
         if check_key(data, 'volume'):
-            s += f' **{data["volume"]}**'
+            s += f' _{data["volume"]}_'
         if check_key(data, 'issue'):
             s += f' ({data["issue"]})'
         if check_key(data, 'pages'):
