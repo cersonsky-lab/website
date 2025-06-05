@@ -39,7 +39,7 @@ layout: default
 </head>
 
 <!-- Replace `example_student` with your name -->
-<img src="/assets/img/example_student.png" alt="Placeholder Image" class="center" style="max-width: 100%">
+<img src="{{ site.baseurl }}/assets/img/example_student.png" alt="Placeholder Image" class="center profile">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Example Student (2023 - present)**
@@ -65,12 +65,12 @@ I helped build this website.
 
 <div class="profile-container">
 <div>
-<img src='/assets/img/example_student_1.png' class="extra"> 
+<img src="{{ site.baseurl }}/assets/img/example_student_1.png" class="extra"> 
 </div>
 <div>
-<img src='/assets/img/example_student_2.png' class="extra">
+<img src="{{ site.baseurl }}/assets/img/example_student_2.png" class="extra">
 </div>
 <div>
-<img src='/assets/img/example_student_3.png' class="extra">
+<img src="{{ site.baseurl }}/assets/img/example_student_3.png" class="extra">
 </div>
 </div>

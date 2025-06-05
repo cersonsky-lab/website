@@ -39,7 +39,7 @@ layout: default
 </head>
 
 <!-- Replace `example_student` with your name -->
-<img src="/assets/img/leonard_and_matilda.jpg" alt="Meow" class="center profile">
+<img src="{{ site.baseurl }}/assets/img/leonard_and_matilda.jpg" alt="Meow" class="center profile">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Leonard and Matilda (2023 - present)**
@@ -65,12 +65,12 @@ Flown on a plane. Never again.
 
 <div class="profile-container">
 <div>
-<img src='/assets/img/leonard_and_matilda_1.jpg' class="extra"> 
+<img src="{{ site.baseurl }}/assets/img/leonard_and_matilda_1.jpg" class="extra"> 
 </div>
 <div>
-<img src='/assets/img/leonard_and_matilda_2.jpg' class="extra">
+<img src="{{ site.baseurl }}/assets/img/leonard_and_matilda_2.jpg" class="extra">
 </div>
 <div>
-<img src='/assets/img/leonard_and_matilda_3.jpg' class="extra">
+<img src="{{ site.baseurl }}/assets/img/leonard_and_matilda_3.jpg" class="extra">
 </div>
 </div>

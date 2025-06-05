@@ -4,4 +4,4 @@ description: The Cersonsky Lab is a research group based at the University of Wi
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
-baseurl: /
+baseurl: ""

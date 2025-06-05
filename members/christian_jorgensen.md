@@ -39,7 +39,7 @@ layout: default
 </head>
 
 <!-- Replace `example_student` with your name -->
-<img src="/assets/img/christian_jorgensen.png" alt="Placeholder Image" class="center profile">
+<img src="{{ site.baseurl }}/assets/img/christian_jorgensen.png" alt="Placeholder Image" class="center profile">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Christian Jorgensen (2023 - present)**
@@ -65,6 +65,6 @@ I've been a tennis instructor for over 5 years!
 
 <div class="profile-container">
 <div>
-<img src='/assets/img/christian_jorgensen_1.png' class="extra"> 
+<img src="{{ site.baseurl }}/assets/img/christian_jorgensen_1.png" class="extra"> 
 </div>
 </div>

@@ -39,7 +39,7 @@ layout: default
 </head>
 
 <!-- Replace `example_student` with your name -->
-<img src="/assets/img/caleb_youngwerth.jpeg" alt="Placeholder Image" class="center profile">
+<img src="{{ site.baseurl }}/assets/img/caleb_youngwerth.jpg" alt="Placeholder Image" class="center profile">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # Caleb Youngwerth (2023 - present)
@@ -65,8 +65,8 @@ I've gotten some working molecular dynamics simulations completed, created many 
 
 <div class="profile-container">
 <div>
-<img src='/assets/img/caleb_youngwerth_1.JPG' class="extra"> 
-<img src='/assets/img/caleb_youngwerth_2.jpg' class="extra"> 
-<img src='/assets/img/caleb_youngwerth_3.jpg' class="extra"> 
+<img src="{{ site.baseurl }}/assets/img/caleb_youngwerth_1.JPG" class="extra"> 
+<img src="{{ site.baseurl }}/assets/img/caleb_youngwerth_2.jpg" class="extra"> 
+<img src="{{ site.baseurl }}/assets/img/caleb_youngwerth_3.jpg" class="extra"> 
 </div>
 </div>

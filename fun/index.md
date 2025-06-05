@@ -5,7 +5,11 @@ layout: default
 This page is a summary of our work-life balance where we engage in shenanigans and we will be adding to it as we grow as a group.
 
 # **2025**
-We need pictures of our group doing something silly! Maybe a picture involving our next group member like you?
+### Joyful group outing at Schwoegler Park Towne Lanes. Complete with curds, gutter guards, and "trick shot," who beat more people at bowling than it is polite to mention. (March 2025)
+<img src="./imgs/2025_Group_Social/20250331_154902.jpg" style="max-height: 250px">
+<img src="./imgs/2025_Group_Social/20250331_154941(0).jpg" style="max-height: 250px">
+<img src="./imgs/2025_Group_Social/20250331_150425.jpg" style="max-height: 250px">
+<img src="./imgs/2025_Group_Social/20250331_145351.jpg" style="max-height: 250px">
 
 # **2024**
 ### Group outing at Saigon Noodle, a local Vietnamese joint! (November 2024)
@@ -32,7 +36,7 @@ We need pictures of our group doing something silly! Maybe a picture involving o
 <img src="./imgs/2024_MTSM_UMich/IMG_7499.jpg" style="max-height: 250px">
 <img src="./imgs/2024_MTSM_UMich/IMG_7500.jpg" style="max-height: 250px">
 
-### Our undergraduate researches presented awesome posters - Featuring Seonwoo Hwang, Seungmin (Henry) Lee, Tryston McCaskill, Lucas Ortengren, Matthew Reuteman, and Zachary Amsterdam (May and July 2024)
+### Our undergraduate researchers presented awesome posters - Featuring Seonwoo Hwang, Seungmin (Henry) Lee, Tryston McCaskill, Lucas Ortengren, Matthew Reuteman, and Zachary Amsterdam (May and July 2024)
 <!-- <img src="./imgs/2024_PosterSessions/20240501_165805.jpg" style="max-height: 250px"> -->
 <img src="./imgs/2024_PosterSessions/20240501_165807.jpg" style="max-height: 250px">
 <img src="./imgs/2024_PosterSessions/20240501_165810.jpg" style="max-height: 250px">
