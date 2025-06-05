@@ -2,7 +2,7 @@ name: Update Zotero Bibliography
 
 on:
   schedule:
-    - cron: "0 0 * * 0"  # Runs every Sunday
+    - cron: "0 0 1 * *"  # At 00:00 on day-of-month 1
   workflow_dispatch:
 
 jobs:
@@ -40,3 +40,4 @@ jobs:
           title: "Update bibliography from Zotero"
           body: "Automated update of the bibliography from Zotero group entries."
           branch: zotero-bib-update
+          reviewers: rosecers
