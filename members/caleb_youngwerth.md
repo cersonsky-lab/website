@@ -46,7 +46,7 @@ layout: default
 
 <!-- Choose your title -- feel free to be professionally silly -->
 **Role in the Cersonsky Lab**\
-I'm working with Hwigwang Lim to use molecular simulations to model a modified DLVO potential with gels in an effort to make better batteries.
+I'm working with <a href="{{ site.baseurl }}/members/hwigwang_lim">Hwigwang Lim</a> to use molecular simulations to model a modified DLVO potential with gels in an effort to make better batteries.
 
 <!-- Name at least one research topic amongst this list -->
 **Things I'm excited about right now**\
