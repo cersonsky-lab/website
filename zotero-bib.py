@@ -13,7 +13,7 @@ items = zot.top()
 
 def format_name(c):
     if c.get('lastName', '') == 'Cersonsky' and not c.get('firstName', '').startswith('T'):
-        return f"**RKC**"
+        return f"_**RKC**_"
     return f"{c.get('firstName','')} {c.get('lastName', '')}"
 
 def read_date(date):
@@ -45,7 +45,7 @@ for item in reversed(sorted(items, key=lambda item: read_date(item.get('date', 0
             s += f', {data["pages"]}'
         if check_key(data, 'itemType'):
             if data['itemType'] == 'dataset':
-                s += ', **Dataset**'
+                s = '**Open Dataset**: ' + s
         if check_key(data, 'url'):
             if 'arxiv' in data['url']:
                 s+= ', _Preprint_'
