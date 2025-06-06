@@ -1,23 +1,23 @@
 principal investigator
-Rose (Rosy) Cersonsky
+Rose (Rosy) Cersonsky - rosecers
 
 postdoctoral researchers
 
 graduate researchers
- - Charles Carroll
- - Ethan Deutsch
- - Christian Jorgensen
- - Hwigwang Lim
- - Arthur Lin 
+ - Charles Carroll - cbefan
+ - Ethan Deutsch - e-deutsch
+ - Christian Jorgensen - cajchristian
+ - Hwigwang Lim - hwigwanglim
+ - Arthur Lin - arthur-lin1027
 
 undergraduate researchers
- - Zachary Amsterdam
- - Simon Hjaltason
- - Natalie Hooven
- - Lucas Ortengren
- - Matthew Reuteman
- - Rhushil Vasavada
- - Caleb Youngwerth
+ - Zachary Amsterdam - zamsterdam
+ - Simon Hjaltason - simon-hjaltason
+ - Natalie Hooven - nat-hooven
+ - Lucas Ortengren - ortengren
+ - Matthew Reuteman - Matthew-Reuteman
+ - Rhushil Vasavada - rsvasavada
+ - Caleb Youngwerth - cjyoungwerth
 
 visitors and collaborators
  - Lisa Je
