@@ -40,7 +40,7 @@ layout: default
 
 
 <!-- Replace `example_student` with your name -->
-<img src="/assets/img/hwigwang_lim.png" alt="Placeholder Image" class="center profile">
+<img src="{{ site.baseurl }}/assets/img/hwigwang_lim.png" alt="Placeholder Image" class="center profile">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Hwigwang Lim (2023 - present)**
@@ -66,10 +66,10 @@ Carved Bucky Badger on a pumpkin, watched movies for 8 hours in one day, and man
 
 <div class="profile-container">
 <div>
-<img src='/assets/img/hwigwang_lim_1.png' class="extra"> 
+<img src="{{ site.baseurl }}/assets/img/hwigwang_lim_1.png" class="extra"> 
 </div>
 <div>
-<img src='/assets/img/hwigwang_lim_2.png' class="extra">
+<img src="{{ site.baseurl }}/assets/img/hwigwang_lim_2.png" class="extra">
 </div>
 </div>
 

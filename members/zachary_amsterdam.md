@@ -39,7 +39,7 @@ layout: default
 </head>
 
 <!-- Replace `example_student` with your name -->
-<img src="/assets/img/zachary_amsterdam.png" alt="Placeholder Image" class="center profile">
+<img src="{{ site.baseurl }}/assets/img/zachary_amsterdam.png" alt="Placeholder Image" class="center profile">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Zachary Amsterdam (2024 - present)**
@@ -65,6 +65,6 @@ I have been to Amsterdam and have played tennis since I was 6.
 
 <div class="profile-container">
 <div>
-<img src='/assets/img/zachary_amsterdam_1.png' class="extra"> 
+<img src="{{ site.baseurl }}/assets/img/zachary_amsterdam_1.png" class="extra"> 
 </div>
 <div>

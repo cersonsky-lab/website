@@ -39,7 +39,7 @@ layout: default
 </head>
 
 <!-- Replace `example_student` with your name -->
-<img src="/assets/img/lucas_ortengren.png" alt="Lucas Ortengren Image" class="center profile">
+<img src="{{ site.baseurl }}/assets/img/lucas_ortengren.png" alt="Lucas Ortengren Image" class="center profile">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Lucas Ortengren (2023 - present)**
@@ -64,12 +64,12 @@ I've previously done research about Heesch numbers and aperiodic monotiles as pa
 
 <div class="profile-container">
 <div>
-<img src='/assets/img/lucas_ortengren_1.png' class="extra">
+<img src="{{ site.baseurl }}/assets/img/lucas_ortengren_1.png" class="extra">
 </div>
 <div>
-<img src='/assets/img/lucas_ortengren_2.png' class="extra">
+<img src="{{ site.baseurl }}/assets/img/lucas_ortengren_2.png" class="extra">
 </div>
 <div>
-<img src='/assets/img/lucas_ortengren_3.png' class="extra">
+<img src="{{ site.baseurl }}/assets/img/lucas_ortengren_3.png" class="extra">
 </div>
 </div>

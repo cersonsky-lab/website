@@ -1,0 +1,43 @@
+name: Update Zotero Bibliography
+
+on:
+  schedule:
+    - cron: "0 0 1 * *"  # At 00:00 on day-of-month 1
+  workflow_dispatch:
+
+jobs:
+  update-bib:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests pyzotero
+
+      - name: Run Zotero Bib Script
+        env:
+          ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
+        run: python zotero_bib.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b zotero-bib-update
+          git add publications/index.md
+          git commit -m "Update bibliography from Zotero"
+          git push origin zotero-bib-update
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          title: "Update bibliography from Zotero"
+          body: "Automated update of the bibliography from Zotero group entries."
+          branch: zotero-bib-update
+          reviewers: rosecers

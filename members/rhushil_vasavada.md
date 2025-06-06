@@ -39,7 +39,7 @@ layout: default
 </head>
 
 <!-- Replace `example_student` with your name -->
-<img src="/assets/img/rhushil_vasavada.png" alt="Placeholder Image" class="center" style="max-width: 100%">
+<img src="{{ site.baseurl }}/assets/img/rhushil_vasavada.png" alt="Placeholder Image" class="center" style="max-width: 100%">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Rhushil Vasavada (2025 - present)**

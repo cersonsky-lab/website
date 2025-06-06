@@ -1,0 +1,31 @@
+name: Cleanup PR Preview
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  delete-preview:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout website-previews repo via SSH
+        uses: actions/checkout@v3
+        with:
+          repository: cersonsky-lab/website-previews
+          ref: gh-pages
+          ssh-key: ${{ secrets.PREVIEW_DEPLOY_KEY }}
+          path: preview_repo
+
+
+      - name: Remove preview folder for PR
+        run: |
+          cd preview_repo
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          rm -rf pr-${{ github.event.pull_request.number }}
+          git add .
+          git commit -m "chore: remove preview for PR #${{ github.event.pull_request.number }}" || echo "Nothing to commit"
+          git push origin gh-pages

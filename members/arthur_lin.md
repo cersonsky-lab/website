@@ -39,7 +39,7 @@ layout: default
 </head>
 
 <!-- Replace `example_student` with your name -->
-<img src="/assets/img/arthur_lin.png" alt="Profile Image" class="center profile">
+<img src="{{ site.baseurl }}/assets/img/arthur_lin.png" alt="Profile Image" class="center profile">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Arthur Lin (2023 - present)**
@@ -70,7 +70,7 @@ Elegant, multiscale structural representations.
 
 <div class="profile-container">
 <div>
-<img src='/assets/img/arthur_lin_1.gif' class="extra"> 
+<img src="{{ site.baseurl }}/assets/img/arthur_lin_1.gif" class="extra"> 
 </div>
 </div>
 
