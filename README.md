@@ -1,7 +1,7 @@
 ## Adding your page to the website
 1. Begin by cloning the repository to your local computer. You can do this by clicking the green `<> code` button above, copying the URL to your clipboard, and then executing `git clone link` in the terminal in which you paste the link in place of the word `link` in your desired local directory.
 2. In the terminal, travel to the website directory. Remain there for the rest of the instructions. Create a new branch by executing `git checkout -b your_name_branch` in the terminal.
-3. Add your name to `members.txt` (by running `nano members.txt` in the terminal) under the appropriate category in alphabetic order by last name. Type your name _exactly_ how you would like it to show up in the directory.
+3. Add your name to `members.txt` (by running `nano members.txt` in the terminal) under the appropriate category in alphabetic order by last name. Type your name _exactly_ how you would like it to show up in the directory, followed by a dash ' - ' and your GitHub username.
 4. Execute `cp members/example_student.md members/your_name.md` in terminal where `your_name` is the name you wrote in (3), but lowercase and with '_' instead of spaces. This will create a file `members/your_name.md` that is an exact copy of `members/example_student.md`.
 5. Fill out `members/your_name.md`! Access the file by executing `nano members/your_name.md` and make sure to replace all instances of `example student` with your name. 
 6. Add a professional photo (preferably square aspect ratio) at `assets/img/your_name.png`. This can be done manually on the cumputer desktop or by executing `cp /path/to/source/your_name.png ./assets/img`, where `/path/to/source` is the path to where the image is on your computer.

@@ -1,0 +1,112 @@
+name: Update Member Pages
+
+on:
+  schedule:
+    - cron: '0 0 30 6,12 *'  # Every June 30 and December 30 at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  update-pages:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: pip install PyGithub python-dateutil
+
+    - name: Run update script
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        REPO: ${{ github.repository }}
+      run: |
+        python <<EOF
+        import os
+        import re
+        import subprocess
+        from datetime import datetime
+        from dateutil.relativedelta import relativedelta
+        from github import Github
+
+        def check_date(filepath):
+            try:
+                result = subprocess.check_output(
+                    ["git", "log", "-1", "--format=%ad", "--", filepath], text=True
+                ).strip()
+                last_edit = datetime.strptime(result, "%a %b %d %H:%M:%S %Y %z")
+                threshold = datetime.now(last_edit.tzinfo) - relativedelta(months=6)
+                return last_edit < threshold
+            except subprocess.CalledProcessError:
+                return True  # Consider as out-of-date if not in history
+
+        with open("members.txt", "r") as f:
+            lines = f.readlines()
+
+        members = []
+        skip_sections = {"visitors", "alumni"}
+        in_skip_section = False
+
+        for line in lines:
+            line = line.strip()
+            if not line or line.lower() in skip_sections:
+                in_skip_section = True
+                continue
+            if line.lower() == "header":
+                in_skip_section = False
+                continue
+            if in_skip_section:
+                continue
+
+            match = re.match(r"-?\s*(.*) - (\S+)", line)
+            if match:
+                name, github_username = match.groups()
+                filename = "_".join(name.lower().strip().split())
+                members.append({
+                    "github": github_username,
+                    "file": f"members/{filename}.md"
+                })
+
+        g = Github(os.environ["GH_TOKEN"])
+        repo = g.get_repo(os.environ["REPO"])
+
+        for member in members:
+            path = member["file"]
+            if not os.path.exists(path):
+                print(f"File {path} not found, skipping.")
+                continue
+
+            if check_date(path):
+                branch_name = f"update-{member['github'].lower()}"
+                subprocess.run(["git", "checkout", "-b", branch_name], check=True)
+
+                with open(path, "a") as f:
+                    f.write("\nThis page has become out-of-date.\n")
+
+                subprocess.run(["git", "config", "user.name", "github-actions"], check=True)
+                subprocess.run(["git", "config", "user.email", "github-actions@github.com"], check=True)
+                subprocess.run(["git", "add", path], check=True)
+                subprocess.run(["git", "commit", "-m", f"Mark {member['file']} as out-of-date"], check=True)
+                subprocess.run(["git", "push", "-u", "origin", branch_name], check=True)
+
+                body = f"This page has been automatically marked as out-of-date.\n\n@{member['github']}"
+                pr = repo.create_pull(
+                    title=f'Mark {member["file"]} page as out-of-date',
+                    body=body,
+                    head=branch_name,
+                    base="main"
+                )
+                pr.add_to_assignees(member["github"])
+
+                subprocess.run(["git", "checkout", "main"], check=True)
+                subprocess.run(["git", "branch", "-D", branch_name], check=True)
+        EOF
+
