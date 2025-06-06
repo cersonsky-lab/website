@@ -2,7 +2,7 @@
 layout: default
 ---
 
-**The Cersonsky Lab is often recruiting post-doctoral, graduate, and undergraduate researchers to join our team!**
+**The Cersonsky Lab is often recruiting post-doctoral, graduate, and undergraduate researchers to join our team.**
 
 We look for candidates that are enthusiastic, motivated, creative and independent, with an attitude for critical thinking.
 We consider diverse scientific backgrounds at the doctoral level, while hiring at the post-doctoral level tends to be more focused.
