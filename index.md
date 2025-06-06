@@ -6,7 +6,7 @@ layout: default
 
 The Cersonsky group is interested in leveraging data science and molecular simulation to explore molecular systems with changing and complex phase behavior. This research aims to address pertinent fundamental and applied open problems in computational chemical and materials sciences, all to better our world. Our group is committed to conducting research that upholds the principles of open science and adheres to FAIR data standards.
 
-**This website is fully-built by our group at UW-Madison, in order to give it a personality and provide opportunities for our group to practice their skills in version control (via Git) and software collaboration.** Every person in the lab, from undergraduates to PI, are responsible for making and updating their own page, reviewing edits, and making suggestions about how to improve this public-facing resource. We hope you enjoy what we've come up with!
+**This website is built by our group at UW-Madison, in order to give it a personality and provide opportunities for our group to practice their skills in version control (via Git) and software collaboration.** Every person in the lab, from undergraduates to PI, are responsible for making and updating their own page, reviewing edits, and making suggestions about how to improve this public-facing resource. We hope you enjoy what we've come up with!
 
 <style>
 .image-hover-container {
