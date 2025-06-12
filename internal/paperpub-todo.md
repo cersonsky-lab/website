@@ -10,7 +10,10 @@ layout: default
 4. Update each member's page with a link to the publication.
 5. Update the News Ticker in the group website.
 6. If the research has an associated code repository, include the repo link.
+7. If you're comfortable, have Rosy show off your paper on the CBE department Slack!
+8. Reach out to any interested peers from different institutions, especially if you've presented preliminary work to them at a conference.
 
 Other good steps include:
 1. Update your CV.
 2. Update your personal and group Zotero.
+3. Update your LinkedIn, and ensure that Google Scholar and Orcid have updated accordingly.
