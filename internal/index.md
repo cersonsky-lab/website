@@ -8,6 +8,7 @@ layout: default
 
 - [On-boarding steps](/internal/onboard)
 - [Group guidelines](https://docs.google.com/document/d/1Z-WA_A9c1kzol6xR3PqYmwi2-I_M_S8DDMXS7CykKc8/edit?usp=sharing)
+- [Reproducible Computational Environments](/internal/reproducible-comp.md)
 - [Paper publication checklist](/internal/paperpub-todo)
 - [Off-boarding steps](/internal/offboard)
 
