@@ -13,7 +13,7 @@ GitHub is a web service that integrates with git. GitHub allows us to host repos
 
 Pixi is a tool that aims to simplify environment management and create reproducible setups. It combines many of the best features of older package managers like `conda` or `pip`, and is faster than both. Notable aspects include:
 
-1. Seamless integration and installation from different package indices (e.g. `conda-forge`, `PyPi`), and can automatically resolve complex dependency trees. 
+1. Seamless integration and installation from different package indices (e.g. `conda-forge`, `PyPi`), and can quickly and automatically resolve complex dependency trees. 
 2. Creating and updating a lockfile that enables reproducible workflows.
 3. Easy reproducibility on systems of different architectures, including CHTC workflows.
 
