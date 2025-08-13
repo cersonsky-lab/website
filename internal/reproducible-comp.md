@@ -17,7 +17,7 @@ Pixi is a tool that aims to simplify environment management and create reproduci
 2. Creating and updating a lockfile that enables reproducible workflows.
 3. Easy reproducibility on systems of different architectures, including CHTC workflows.
 
-Please follow these steps for [installation and documentation](https://pixi.sh/latest).
+Please follow these steps for [`pixi` installation and documentation](https://pixi.sh/latest).
 
 **Note**: If you are adding Pixi to an existing python software project with a `pyproject.toml`, running the usual `pixi init` command in your root directory will append Pixi related tables to the end of `pyproject.toml`. This is fine.
 
