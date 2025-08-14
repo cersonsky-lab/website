@@ -107,9 +107,6 @@ li {
 <a href="{{ site.baseurl }}/members/zachary_amsterdam"><img src="{{ site.baseurl }}/assets/img/zachary_amsterdam.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/zachary_amsterdam">Zachary Amsterdam</a>
 </div>
 <div class="profile">
-<a href="{{ site.baseurl }}/members/simon_hjaltason"><img src="{{ site.baseurl }}/assets/img/simon_hjaltason.jpg" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/simon_hjaltason">Simon Hjaltason</a>
-</div>
-<div class="profile">
 <a href="{{ site.baseurl }}/members/natalie_hooven"><img src="{{ site.baseurl }}/assets/img/natalie_hooven.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/natalie_hooven">Natalie Hooven</a>
 </div>
 <div class="profile">
@@ -160,6 +157,7 @@ li {
 	<li>Seonwoo Hwang</li>
 	<li>Seungmin Henry Lee</li>
 	<li>Tryston McCaskill</li>
+	<li>Simon Hjaltason</li>
 </ul>
 </div>
 
