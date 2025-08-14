@@ -12,7 +12,6 @@ graduate researchers
 
 undergraduate researchers
  - Zachary Amsterdam
- - Simon Hjaltason
  - Natalie Hooven
  - Lucas Ortengren
  - Matthew Reuteman
@@ -31,5 +30,6 @@ alumni
  - Seonwoo Hwang
  - Seungmin Henry Lee
  - Tryston McCaskill
+ - Simon Hjaltason
 
 end
