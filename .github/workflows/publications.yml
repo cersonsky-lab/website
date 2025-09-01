@@ -39,5 +39,6 @@ jobs:
         with:
           title: "Update bibliography from Zotero"
           body: "Automated update of the bibliography from Zotero group entries."
+          base: main
           branch: zotero-bib-update
           reviewers: rosecers
