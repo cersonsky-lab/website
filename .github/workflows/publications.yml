@@ -23,8 +23,7 @@ jobs:
       - name: Run Zotero Bib Script
         env:
           ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
-        run: |
-          python ../zotero_bib.py
+        run: python zotero-bib.py
 
       - name: Commit changes
         run: |
