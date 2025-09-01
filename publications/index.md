@@ -5,9 +5,10 @@ layout: default
 
 2025
 ----
-- **AniSOAP: Machine Learning Representations for Coarse-grained and Non-spherical Systems** – Arthur Y. Lin, Lucas Ortengren, Seonwoo Hwang, Yong-Cheol Cho, Jigyasa Nigam, _**RKC**_, _Journal of Open Source Software_ [Link](https://joss.theoj.org/papers/4f031c830d4790cce21dd630588db665).
 - **Interpretable Visualizations of Data Spaces for Classification Problems** – Christian Jorgensen, Arthur Y. Lin, _**RKC**_, _Preprint_ [Link](http://arxiv.org/abs/2503.05861).
 - **Machine Learning and Statistical Mechanics: Shared Synergies for Next Generation of Chemical Theory and Computation** – _**RKC**_, Bingqing Cheng, Marco De Vivo, Pratyush Tiwary, _Journal of Chemical Theory and Computation_, acs.jctc.5c00650 [Link](https://pubs.acs.org/doi/10.1021/acs.jctc.5c00650).
+- **AniSOAP: Machine Learning Representations for Coarse-grained and Non-spherical Systems** – Arthur Yan Lin, Lucas Ortengren, Seonwoo Hwang, Yong-Cheol Cho, Jigyasa Nigam, _**RKC**_, _Journal of Open Source Software_ _10_ (111), 7954 [Link](https://joss.theoj.org/papers/10.21105/joss.07954).
+- **Effect of Surfactants on Posaconazole Crystallization and Polymorphism: Tween 80 vs Span 80** – Kennedy A. Borchardt-Setter, Xin Yao, _**RKC**_, Torsten Stelzer, Shuang Chen, Ahmad Sheikh, Geoff G. Z. Zhang, Lian Yu, _Crystal Growth & Design_, acs.cgd.5c01016 [Link](https://pubs.acs.org/doi/10.1021/acs.cgd.5c01016).
 
 2024
 ----
