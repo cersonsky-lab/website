@@ -116,9 +116,6 @@ li {
 <a href="{{ site.baseurl }}/members/matthew_reuteman"><img src="{{ site.baseurl }}/assets/img/matthew_reuteman.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/matthew_reuteman">Matthew Reuteman</a>
 </div>
 <div class="profile">
-<a href="{{ site.baseurl }}/members/rhushil_vasavada"><img src="{{ site.baseurl }}/assets/img/rhushil_vasavada.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/rhushil_vasavada">Rhushil Vasavada</a>
-</div>
-<div class="profile">
 <a href="{{ site.baseurl }}/members/caleb_youngwerth"><img src="{{ site.baseurl }}/assets/img/caleb_youngwerth.jpg" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/caleb_youngwerth">Caleb Youngwerth</a>
 </div>
 </div>
@@ -158,6 +155,7 @@ li {
 	<li>Seungmin Henry Lee</li>
 	<li>Tryston McCaskill</li>
 	<li>Simon Hjaltason</li>
+	<li>Rhushil Vasavada</li>
 </ul>
 </div>
 
