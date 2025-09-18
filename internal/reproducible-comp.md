@@ -5,7 +5,7 @@ title: "Reproducible Computational Environments."
 
 # Cersonsky Lab Commandments for Reproducible Computational Environments.
 
-Creating reproducible environments is a longstanding challenge in computational sciences. Often, the diverse software tools and its complex interactions with various hardware makes it difficult to guarantee that software can work on multiple users' machines. In addition, future members of the lab may need to see or run your code, even if its dependencies are no longer being maintained. Thus having a framework for managing projects and their dependencies is important.
+Creating reproducible environments is a longstanding challenge in computational sciences. Often, the diverse software tools and their complex interactions with various hardware makes it difficult to guarantee that software can work on multiple users' machines. In addition, future members of the lab may need to see or run your code, even if its dependencies are no longer being maintained. Thus having a framework for managing projects and their dependencies is important.
 
 In our lab, we use [`git`](https://git-scm.com/), [`GitHub`](https://github.com/), and [`pixi`](https://pixi.sh/latest/) for managing projects on a per-project basis. Note that historically, we have used [`conda`](https://docs.conda.io/en/latest/) for environment management, but the Cersonsky Lab aims to be early adopters of the `pixi` tool, and we find it very promising and exciting.
 
@@ -75,3 +75,11 @@ gpu = ["gpu"]
 And specific environments can be invoked on target platforms by running either
 * `pixi run -e gpu *command*` or
 * `pixi run -e cpu *command*`
+
+A few other tips:
+
+1. If using python, you should generally not use `pip install` to install packages when working in a pixi environment, as the `pixi.toml` file will not update to account for the new dependency. Instead, use `pixi add <package>` or, if the package if only available on `PyPi`, `pixi add --pypi <package>`.
+
+2. Pixi environments are compatible with VSCode - if you create a pixi environment using `pixi init` and add python using `pixi add python`, the python version that you installed as a part of your pixi environmnet will show up as the recommended interpreter. It will be called "default" by default. If using a Python notebook in VSCode, go to the notebook, hit "Select Kernel" in the top right corner, then "Python Environments". You should see your python environment as the recommended environment.
+
+3. Sending a pixi environment to a friend is easy. Just make sure that your pixi.toml and pixi.lock files are being tracked in git. Then, if your friend clones your repository, they can reproduce your environment bit-for-bit with just `pixi install`.
