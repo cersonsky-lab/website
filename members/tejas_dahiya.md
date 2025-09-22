@@ -39,34 +39,36 @@ layout: default
 </head>
 
 <!-- Replace `example_student` with your name -->
-<img src="{{ site.baseurl }}/assets/img/tejas_dahiya.png" alt="Placeholder Image" class="center profile">
+<img src="{{ site.baseurl }}/assets/img/tejas_dahiya_2.png" alt="Placeholder Image" class="center profile">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Tejas Dahiya (2025 - present)**
 
 <!-- Choose your title -- feel free to be professionally silly -->
-**I am an undergraduate researcher**\
-I am here until we add real people to the website.
+**Role in the Cersonsky Lab**\
+I am an undergraduate researcher.
 
-<!-- Name at least one research topic amongst this list -->
-**I’m excited about applying machine learning to uncover patterns in molecular and materials data.**\
-finally having a face.
+<!-- Name at least one research  -->
+**Things I’m excited about right now**\
+I’m excited about applying machine learning to uncover patterns in molecular and materials data.
 
 <!-- Ultimately, we'll use this section to
      include papers and talks, and contributions
      But for now put whatever you want -->
-**I received the CREST Gold Award from the British Science Association for my independent research, and interned with the Vice President of India**\
-I helped build this website.
+**Cool stuff I've done**\
+I received the CREST Gold Award from the British Science Association for my independent research, and interned with the Vice President of India.
 
 
 <!-- If you have photos you would like to exhibit,
      save them as `/assets/member_images/your_name_photo_#.png`
      and replace example_student below -->
-<!--
+
 <div class="profile-container">
 <div>
-<img src="{{ site.baseurl }}/assets/img/example_student_1.png" class="extra"> 
+<img src="{{ site.baseurl }}/assets/img/vice_president_picture.png" class="extra"> 
 </div>
+
+<!--
 <div>
 <img src="{{ site.baseurl }}/assets/img/example_student_2.png" class="extra">
 </div>
