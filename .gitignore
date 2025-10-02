@@ -7,3 +7,6 @@ Gemfile.lock
 .bundle/
 vendor/
 .ruby-version
+.bundle/
+vendor/
+.ruby-version
