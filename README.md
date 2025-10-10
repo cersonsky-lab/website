@@ -11,10 +11,9 @@
     * This step may not work if you do not have _Jekyll_ installed correctly or installed in general on your computer. To fix this, the first step is to install _Ruby_ through a version manager. Do this by running `brew install rbenv`, then run `rbenv init`, and then restart your terminal and return to the website directory. The second step is to run `gem install jekyll`, and the problem will be solved.
     * Another reason this step may not work is because your version of _Ruby_ is not compatible with the bundler that generatreed the _Gemfile.loc_ file (`1.17.2`). Begin by seeing if this is the issue by executing `ruby -v` in the terminal. If any number is displayed that is higher than 2.6.10, then an older version of _Ruby_ must be downloaded. Do this by executing `rbenv install 2.6.10`, then `rbenv global 2.6.10`, and finally `ruby -v` to verify version 2.6.10 of _Ruby_ is now installed.
     * Once the command is succesfully ran, copy and paste the provided URL into your browser and verify everything on the website is how you want it to look.
-    * Update as of October 2, 2025: If none of these commands work, you can use the provided Dockerfile to create an image and container.
-      * The only lines in the Dockerfile that you will need to modify are the git commands that clone and switch to a branch.
-      * After doing so, run `docker build -t jekyll:latest .`, which will build the image (this takes a few minutes, especially the first time you do things)
-      * Then, run `docker run -p 4000:4000 -it jekyll`, which will run the container and the server. 
+    * **Update as of October 10, 2025**: If none of these commands work, you can use the provided Dockerfile to create an image and container. To get started, follow [these instructions](https://docs.docker.com/get-started/get-docker/) to download, install, and learn more about Docker.
+      * After doing so, run `docker build -t jekyll:latest .`, which will build the image. This takes a few minutes, but building the image only needs to be done once.
+      * Then, run `docker run --rm -it -v $(pwd):/website -p 4000:4000 jekyll:latest`, which will run the container and the server, mounting this directory to `/website` in the docker container. Things will be properly hot-reloaded, allowing for immediate feedback on updates to the webpage.
 10. Commit your branch and push it to the repository with `git add *; git commit -m "Making a page for your name"; git push origin your_name_branch`.
 11. Create a pull request on `https://github.com/cersonsky-lab/website/pulls` and check that all tests run.
 12. Request one of your group members and Rosy (@rosecers) as a reviewer.    
