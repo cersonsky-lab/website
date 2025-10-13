@@ -12,8 +12,14 @@
     * Another reason this step may not work is because your version of _Ruby_ is not compatible with the bundler that generatreed the _Gemfile.loc_ file (`1.17.2`). Begin by seeing if this is the issue by executing `ruby -v` in the terminal. If any number is displayed that is higher than 2.6.10, then an older version of _Ruby_ must be downloaded. Do this by executing `rbenv install 2.6.10`, then `rbenv global 2.6.10`, and finally `ruby -v` to verify version 2.6.10 of _Ruby_ is now installed.
     * Once the command is succesfully ran, copy and paste the provided URL into your browser and verify everything on the website is how you want it to look.
     * **Update as of October 10, 2025**: If none of these commands work, you can use the provided Dockerfile to create an image and container. To get started, follow [these instructions](https://docs.docker.com/get-started/get-docker/) to download, install, and learn more about Docker.
+      * Run `rm Gemfile.lock` to remove the Lockfile if it exists - it will be regenerated in later steps
       * After doing so, run `docker build -t jekyll:latest .`, which will build the image. This takes a few minutes, but building the image only needs to be done once.
-      * Then, run `docker run --rm -it -v $(pwd):/website -p 4000:4000 jekyll:latest`, which will run the container and the server, mounting this directory to `/website` in the docker container. Things will be properly hot-reloaded, allowing for immediate feedback on updates to the webpage.
+      * Then, run 
+        * Linux/Mac: `docker run --rm -it -v $(pwd):/website -p 4000:4000 jekyll:latest` or
+        * Windows Powershell:  `docker run --rm -it -v ${PWD}:/website -p 4000:4000 jekyll:latest` or
+        * Windows Command Prompt: `docker run --rm -it -v %cd%:/website -p 4000:4000 jekyll:latest`
+        which will run the container and the server, mounting this directory to `/website` in the docker container. Things will be properly hot-reloaded, allowing for immediate feedback on updates to the webpage.
+      * After about 30 seconds, it will present you with the url `http://0.0.0.0:4000`. This URL works for Linux and Mac, but not Windows. If you're on Windows, navigate to `http://localhost:4000`.
 10. Commit your branch and push it to the repository with `git add *; git commit -m "Making a page for your name"; git push origin your_name_branch`.
 11. Create a pull request on `https://github.com/cersonsky-lab/website/pulls` and check that all tests run.
 12. Request one of your group members and Rosy (@rosecers) as a reviewer.    
