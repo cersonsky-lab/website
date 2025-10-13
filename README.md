@@ -15,11 +15,11 @@
       * Run `rm Gemfile.lock` to remove the Lockfile if it exists - it will be regenerated in later steps
       * After doing so, run `docker build -t jekyll:latest .`, which will build the image. This takes a few minutes, but building the image only needs to be done once.
       * Then, run 
-        * Linux/Mac: `docker run --rm -it -v $(pwd):/website -p 4000:4000 jekyll:latest` or
-        * Windows Powershell:  `docker run --rm -it -v ${PWD}:/website -p 4000:4000 jekyll:latest` or
+        * Linux/Mac: `docker run --rm -it -v $(pwd):/website -p 4000:4000 jekyll:latest`  
+        * Windows Powershell:  `docker run --rm -it -v ${PWD}:/website -p 4000:4000 jekyll:latest`  
         * Windows Command Prompt: `docker run --rm -it -v %cd%:/website -p 4000:4000 jekyll:latest`
-        which will run the container and the server, mounting this directory to `/website` in the docker container. Things will be properly hot-reloaded, allowing for immediate feedback on updates to the webpage.
       * After about 30 seconds, it will present you with the url `http://0.0.0.0:4000`. This URL works for Linux and Mac, but not Windows. If you're on Windows, navigate to `http://localhost:4000`.
+      * These commands will run the container and the server, mounting this directory to `/website` in the docker container. Things will be properly hot-reloaded, allowing for immediate feedback on updates to the webpage.
 10. Commit your branch and push it to the repository with `git add *; git commit -m "Making a page for your name"; git push origin your_name_branch`.
 11. Create a pull request on `https://github.com/cersonsky-lab/website/pulls` and check that all tests run.
 12. Request one of your group members and Rosy (@rosecers) as a reviewer.    
