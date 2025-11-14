@@ -107,7 +107,7 @@ li {
 <a href="{{ site.baseurl }}/members/zachary_amsterdam"><img src="{{ site.baseurl }}/assets/img/zachary_amsterdam.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/zachary_amsterdam">Zachary Amsterdam</a>
 </div>
 <div class="profile">
-<a href="{{ site.baseurl }}/members/tejas_dahiya"><img src="{{ site.baseurl }}/assets/img/tejas_dahiya_2.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/tejas_dahiya">Tejas Dahiya</a>
+<a href="{{ site.baseurl }}/members/tejas_dahiya"><img src="{{ site.baseurl }}/assets/img/tejas_dahiya.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/tejas_dahiya">Tejas Dahiya</a>
 </div>
 <div class="profile">
 <a href="{{ site.baseurl }}/members/natalie_hooven"><img src="{{ site.baseurl }}/assets/img/natalie_hooven.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/natalie_hooven">Natalie Hooven</a>
@@ -117,6 +117,9 @@ li {
 </div>
 <div class="profile">
 <a href="{{ site.baseurl }}/members/matthew_reuteman"><img src="{{ site.baseurl }}/assets/img/matthew_reuteman.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/matthew_reuteman">Matthew Reuteman</a>
+</div>
+<div class="profile">
+<a href="{{ site.baseurl }}/members/chance_wall"><img src="{{ site.baseurl }}/assets/img/chance_wall.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/chance_wall">Chance Wall</a>
 </div>
 <div class="profile">
 <a href="{{ site.baseurl }}/members/caleb_youngwerth"><img src="{{ site.baseurl }}/assets/img/caleb_youngwerth.jpg" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/caleb_youngwerth">Caleb Youngwerth</a>
