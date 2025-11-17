@@ -82,6 +82,9 @@ li {
 <a href="{{ site.baseurl }}/members/charles_carroll"><img src="{{ site.baseurl }}/assets/img/charles_carroll.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/charles_carroll">Charles Carroll</a>
 </div>
 <div class="profile">
+<a href="{{ site.baseurl }}/members/max_depperschmidt"><img src="{{ site.baseurl }}/assets/img/max_depperschmidt.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/max_depperschmidt">Max Depperschmidt</a>
+</div>
+<div class="profile">
 <a href="{{ site.baseurl }}/members/ethan_deutsch"><img src="{{ site.baseurl }}/assets/img/ethan_deutsch.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/ethan_deutsch">Ethan Deutsch</a>
 </div>
 <div class="profile">
@@ -107,7 +110,7 @@ li {
 <a href="{{ site.baseurl }}/members/zachary_amsterdam"><img src="{{ site.baseurl }}/assets/img/zachary_amsterdam.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/zachary_amsterdam">Zachary Amsterdam</a>
 </div>
 <div class="profile">
-<a href="{{ site.baseurl }}/members/tejas_dahiya"><img src="{{ site.baseurl }}/assets/img/tejas_dahiya_2.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/tejas_dahiya">Tejas Dahiya</a>
+<a href="{{ site.baseurl }}/members/tejas_dahiya"><img src="{{ site.baseurl }}/assets/img/tejas_dahiya.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/tejas_dahiya">Tejas Dahiya</a>
 </div>
 <div class="profile">
 <a href="{{ site.baseurl }}/members/natalie_hooven"><img src="{{ site.baseurl }}/assets/img/natalie_hooven.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/natalie_hooven">Natalie Hooven</a>
