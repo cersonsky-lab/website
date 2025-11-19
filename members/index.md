@@ -82,6 +82,9 @@ li {
 <a href="{{ site.baseurl }}/members/charles_carroll"><img src="{{ site.baseurl }}/assets/img/charles_carroll.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/charles_carroll">Charles Carroll</a>
 </div>
 <div class="profile">
+<a href="{{ site.baseurl }}/members/max_depperschmidt"><img src="{{ site.baseurl }}/assets/img/max_depperschmidt.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/max_depperschmidt">Max Depperschmidt</a>
+</div>
+<div class="profile">
 <a href="{{ site.baseurl }}/members/ethan_deutsch"><img src="{{ site.baseurl }}/assets/img/ethan_deutsch.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/ethan_deutsch">Ethan Deutsch</a>
 </div>
 <div class="profile">
