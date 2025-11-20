@@ -9,7 +9,8 @@ graduate researchers
  - Ethan Deutsch
  - Christian Jorgensen
  - Hwigwang Lim
- - Arthur Lin 
+ - Arthur Lin
+ - Jordan Loeffler 
 
 undergraduate researchers
  - Zachary Amsterdam
