@@ -39,7 +39,7 @@ layout: default
 </head>
 
 <!-- Replace `example_student` with your name -->
-<img src="{{ site.baseurl }}/assets/img/jordan_loeffler.png" alt="Placeholder Image" class="center profile">
+<img src="{{ site.baseurl }}/assets/img/jordan_loeffler.jpg" alt="Placeholder Image" class="center profile">
 
 <!-- Replace `Example Student` with your name and include your start date-->
 # **Example Student (2023 - present)**
@@ -58,19 +58,19 @@ Simulating biomolecular systems and using cheminformatics for molecular design.
 **Cool stuff I've done**\
 I have played piano since I was 5 years old, and I like to bake.
 
-
+<!-- 
 <!-- If you have photos you would like to exhibit,
      save them as `/assets/member_images/your_name_photo_#.png`
      and replace example_student below -->
 
-<!-- <div class="profile-container">
+<div class="profile-container">
 <div>
-<img src="{{ site.baseurl }}/assets/img/example_student_1.png" class="extra"> 
+<img src="{{ site.baseurl }}/assets/img/Jordan_Loeffler_1.png" class="extra"> 
 </div>
 <div>
-<img src="{{ site.baseurl }}/assets/img/example_student_2.png" class="extra">
+<img src="{{ site.baseurl }}/assets/img/Jordan_Loeffler_2.png" class="extra">
 </div>
-<div>
+<!-- <div>
 <img src="{{ site.baseurl }}/assets/img/example_student_3.png" class="extra">
 </div>
 </div> -->
