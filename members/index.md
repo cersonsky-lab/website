@@ -96,6 +96,9 @@ li {
 <div class="profile">
 <a href="{{ site.baseurl }}/members/arthur_lin"><img src="{{ site.baseurl }}/assets/img/arthur_lin.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/arthur_lin">Arthur Lin</a>
 </div>
+<div class="profile">
+<a href="{{ site.baseurl }}/members/jordan_loeffler"><img src="{{ site.baseurl }}/assets/img/jordan_loeffler.jpg" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/jordan_loeffler">Jordan Loeffler</a>
+</div>
 </div>
 
 
