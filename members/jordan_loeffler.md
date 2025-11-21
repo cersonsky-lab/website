@@ -42,7 +42,7 @@ layout: default
 <img src="{{ site.baseurl }}/assets/img/jordan_loeffler.jpg" alt="Placeholder Image" class="center profile">
 
 <!-- Replace `Example Student` with your name and include your start date-->
-# **Example Student (2023 - present)**
+# **Jordan Loeffler (2025 - present)**
 
 <!-- Choose your title -- feel free to be professionally silly -->
 **Role in the Cersonsky Lab**\
