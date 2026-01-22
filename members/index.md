@@ -128,6 +128,9 @@ li {
 <a href="{{ site.baseurl }}/members/chance_wall"><img src="{{ site.baseurl }}/assets/img/chance_wall.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/chance_wall">Chance Wall</a>
 </div>
 <div class="profile">
+<a href="{{ site.baseurl }}/members/james_yeom"><img src="{{ site.baseurl }}/assets/img/james_yeom.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/james_yeom">James Yeom</a>
+</div>
+<div class="profile">
 <a href="{{ site.baseurl }}/members/caleb_youngwerth"><img src="{{ site.baseurl }}/assets/img/caleb_youngwerth.jpg" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/caleb_youngwerth">Caleb Youngwerth</a>
 </div>
 </div>
