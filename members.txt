@@ -18,6 +18,7 @@ undergraduate researchers
  - Natalie Hooven
  - Lucas Ortengren
  - Matthew Reuteman
+ - Mohor Sarkar
  - Chance Wall
  - James Yeom
  - Caleb Youngwerth
@@ -38,3 +39,4 @@ alumni
  - Rhushil Vasavada
 
 end
+
