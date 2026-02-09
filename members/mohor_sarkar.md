@@ -50,7 +50,7 @@ Undergraduate researcher.
 
 <!-- Name at least one research topic amongst this list -->
 **Things I'm excited about right now**\
-Learning about AniSOAP!
+Learning about utilizing AniSOAP to measure information loss in coarse-graining!
 
 <!-- Ultimately, we'll use this section to
      include papers and talks, and contributions
