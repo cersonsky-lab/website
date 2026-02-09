@@ -125,6 +125,9 @@ li {
 <a href="{{ site.baseurl }}/members/matthew_reuteman"><img src="{{ site.baseurl }}/assets/img/matthew_reuteman.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/matthew_reuteman">Matthew Reuteman</a>
 </div>
 <div class="profile">
+<a href="{{ site.baseurl }}/members/mohor_sarkar"><img src="{{ site.baseurl }}/assets/img/mohor_sarkar.jpg" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/mohor_sarkar">Mohor Sarkar</a>
+</div>
+<div class="profile">
 <a href="{{ site.baseurl }}/members/chance_wall"><img src="{{ site.baseurl }}/assets/img/chance_wall.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/chance_wall">Chance Wall</a>
 </div>
 <div class="profile">
