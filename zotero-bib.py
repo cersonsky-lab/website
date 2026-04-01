@@ -26,11 +26,12 @@ def check_key(data, key):
     return key in data and data[key]!=''
 ytoday = datetime.now().year
 
-entries = {k: [] for k in range(2014, ytoday+1)}
+entries = {k: [] for k in range(2014, ytoday+2)}
 for item in reversed(sorted(items, key=lambda item: read_date(item.get('date', 0)))):
     data = item.get("data", {})
     if check_key(data, 'date'):
         year = int(read_date(data.get('date'))[0])
+        print(data.get('data'), year)
         title = data.get("title", "No title")
         creators = data.get("creators", [])
         authors = ", ".join(format_name(c) for c in creators)
@@ -53,6 +54,7 @@ for item in reversed(sorted(items, key=lambda item: read_date(item.get('date', 0
 
         s+= '.\n'
         
+        print(year, s)
         entries[year].append(s)
 
 with open(OUTPUT_FILE, 'w') as outf:
