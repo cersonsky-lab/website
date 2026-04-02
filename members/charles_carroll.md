@@ -50,14 +50,17 @@ Graduate Student Researcher.
 
 <!-- Name at least one research topic amongst this list -->
 **Things I'm excited about right now**\
-Representations, chemistry, computers.
+* Representations in soft matter and in statistical mechanics. 
+* Interplay between single molecule properties and condensed phases. 
+* Watching turkeys.
 
 <!-- Ultimately, we'll use this section to
      include papers and talks, and contributions
      But for now put whatever you want -->
 **Cool stuff I've done**
-* Dug a sidewalk.
-* BD simulations of coarse grained polymers in flow.
+* Simulations of an anisotropic organic glass and a charged polymer blend.
+* Climbed a mountain.
+* Sailed a dinghy.
 
 
 <!-- If you have photos you would like to exhibit,
