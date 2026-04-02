@@ -49,7 +49,7 @@ layout: default
 Graduate Student Researcher.
 
 <!-- Name at least one research topic amongst this list -->
-**Things I'm excited about right now**\
+**Things I'm excited about right now**
 * Representations in soft matter and in statistical mechanics. 
 * Interplay between single molecule properties and condensed phases. 
 * Watching turkeys.
