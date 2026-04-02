@@ -119,6 +119,9 @@ li {
 <a href="{{ site.baseurl }}/members/natalie_hooven"><img src="{{ site.baseurl }}/assets/img/natalie_hooven.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/natalie_hooven">Natalie Hooven</a>
 </div>
 <div class="profile">
+<a href="{{ site.baseurl }}/members/sriman_nedunuri"><img src="{{ site.baseurl }}/assets/img/sriman_nedunuri.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/sriman_nedunuri">Sriman Nedunuri</a>
+</div>
+<div class="profile">
 <a href="{{ site.baseurl }}/members/lucas_ortengren"><img src="{{ site.baseurl }}/assets/img/lucas_ortengren.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/lucas_ortengren">Lucas Ortengren</a>
 </div>
 <div class="profile">
