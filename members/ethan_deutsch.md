@@ -56,7 +56,7 @@ Graduate Student Researcher
      <ul style="margin-top: 0; margin-bottom: 0;">
      <li>Specifically, persistent homology applied to simulated glass formers</li>
      </ul></li>
-<li>Physics embedded sheaf complexes for better informed phenomena representation</li>
+<li>Physics-embedded sheaf complexes for better informed phenomena representation</li>
 </ul>
 
 <!-- Ultimately, we'll use this section to
