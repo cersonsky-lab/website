@@ -59,7 +59,8 @@ Graduate Student Researcher
      include papers and talks, and contributions
      But for now put whatever you want -->
 **Cool stuff I've done**
-* Ran a half marathon in 1:31:35 !
+<li>Look at my beautiful colloidal gel structure below (git made by <a href="{{ site.baseurl }}/members/ethan_deutsch">Ethan</a>)!</li>
+* Ran a half marathon <a href="{{ site.baseurl }}/members/ethan_deutsch">in</a> 1:31:35
 * Carved Bucky Badger on a pumpkin
 * Watched movies for 8 hours in one day
 * Many things meaningless and meaningful at the same time.
