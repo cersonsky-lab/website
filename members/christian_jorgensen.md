@@ -58,6 +58,11 @@ Reinventing molecular crystal structure prediction.
 **Cool stuff I've done**\
 I've been a tennis instructor for over 5 years!
 
+<!-- Publications here -->
+**Publications**
+- **Interpretable visualizations of data spaces for classification problems** – **Christian Jorgensen**, Arthur Y Lin, Rhushil Vasavada, Rose K. Cersonsky, _Machine Learning: Science and Technology_ [Link](http://iopscience.iop.org/article/10.1088/2632-2153/ae466e).
+- **scikit-matter : A Suite of Generalisable Machine Learning Methods Born out of Chemistry and Materials Science** – Alexander Goscinski, **Christian Jorgensen**, Victor Paul Principe, Guillaume Fraux, Sergei Kliavinek, Benjamin A. Helfrecht, Philip Loche, Rhushil Vasavada, Michele Ceriotti, Rose K. Cersonsky, _Open Research Europe_ _3_, 81 [Link](https://open-research-europe.ec.europa.eu/articles/3-81/v3).
+
 
 <!-- If you have photos you would like to exhibit,
      save them as `/assets/member_images/your_name_photo_#.png`
