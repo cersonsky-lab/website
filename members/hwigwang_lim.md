@@ -50,14 +50,20 @@ layout: default
 Graduate Student Researcher
 
 <!-- Name at least one research topic amongst this list -->
-**Things I'm excited about right now**\
-Behavior and role of particles in ionic liquid. Representation of charged molecules and particles.
+**Things I'm excited about right now**
+* Colloidal behavior in concentrated electrolytes
+* Electrostatic interactions in highly ionic systems
+* Representation and analysis of amorphous structures
 
 <!-- Ultimately, we'll use this section to
      include papers and talks, and contributions
      But for now put whatever you want -->
-**Cool stuff I've done**\
-Carved Bucky Badger on a pumpkin, watched movies for 8 hours in one day, and many things meaningless and meaningful at the same time.
+**Cool stuff I've done**
+* Look at my beautiful colloidal gel simulation structure below (gif made by <a href="{{ site.baseurl }}/members/ethan_deutsch">Ethan</a>)!
+* Ran a half marathon in 1:31:35
+* Carved Bucky Badger on a pumpkin
+* Watched movies for 8 hours in one day
+* Many things meaningless and meaningful at the same time.
 
 
 <!-- If you have photos you would like to exhibit,
@@ -70,6 +76,9 @@ Carved Bucky Badger on a pumpkin, watched movies for 8 hours in one day, and man
 </div>
 <div>
 <img src="{{ site.baseurl }}/assets/img/hwigwang_lim_2.png" class="extra">
+</div>
+<div>
+<img src="{{ site.baseurl }}/assets/img/hwigwang_lim_3.gif" class="extra">
 </div>
 </div>
 

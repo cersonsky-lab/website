@@ -50,13 +50,13 @@ Graduate Student Researcher!! ;)
 
 <!-- Name at least one research topic amongst this list -->
 **Things I'm excited about right now**\
-Applying interpretable methods to problems in the chemistry and molecular spaces
+Exploring chemical representations and applying machine learning to molecular generation
 
 <!-- Ultimately, we'll use this section to
      include papers and talks, and contributions
      But for now put whatever you want -->
 **Cool stuff I've done**\
-Music composition, story writing, golf, Minecraft datapack development, Touhou 6 Hard 1CC all-shots
+Music composition, story writing, golf, Touhou, Minecraft datapack development
 
 
 <!-- If you have photos you would like to exhibit,
