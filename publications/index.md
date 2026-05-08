@@ -6,11 +6,12 @@ layout: default
 2026
 ----
 - **Reply to: An explanation for the Rule of Four in Inorganic Materials** – Elena Gazzarrini, _**RKC**_, Marnik Bercx, Carl S. Adorf, Nicola Marzari, _npj Computational Materials_ _12_ (1), 43 [Link](https://www.nature.com/articles/s41524-025-01755-7).
-- **Interpretable visualizations of data spaces for classification problems** – Christian Alexander Jorgensen, Arthur Y Lin, Rhushil Vasavada, _**RKC**_, _Machine Learning: Science and Technology_ [Link](http://iopscience.iop.org/article/10.1088/2632-2153/ae466e).
 - **Extrapolation of Machine-Learning Interatomic Potentials for Organic and Polymeric Systems** – Natalie E. Hooven, Arthur Y. Lin, Charles H. Carroll, _**RKC**_, _Preprint_ [Link](http://arxiv.org/abs/2509.25022).
 - **Data-Driven Design Rules for Three-Dimensional Photonic Crystals** – _**RKC**_, Saswat K. Nayak, Seungmin H. Lee, _ACS Omega_ [Link](https://pubs.acs.org/doi/abs/10.1021/acsomega.6c00256).
-- **Identifying the Impact of Chemical Functional Groups on Ionic Liquid Conductivity** – J E Umaña, N A Zawicki, Matthew A Gebbie, Victor M Zavala, _**RKC**_ [Link](https://chemrxiv.org/doi/full/10.26434/chemrxiv.15000903/v1).
 - **Evaporative Coupled with Antisolvent Crystallization for Additive Manufacturing of Personalized Solid Dosage Forms** – Aliou Mbodji, Andrea Arroyo Gomez, Gianelle Bigio Silva, Cornelis Vlaar, Jorge Duconge, Jean-Christophe M. Monbaliu, _**RKC**_, Lian Yu, Geoff G. Z. Zhang, Gerard Coquerel, Rodolfo Romañach, Torsten Stelzer [Link](https://papers.ssrn.com/abstract=6498428).
+- **Identifying the Impact of Chemical Functional Groups on Ionic Liquid Conductivity** – J E Umaña, N A Zawicki, Matthew A Gebbie, Victor M Zavala, _**RKC**_ [Link](https://chemrxiv.org/doi/full/10.26434/chemrxiv.15000903/v1).
+- **Non-Destructive Pipeline for Analysis of Crystalline Solid Dispersions** – Christian Jorgensen, Aliou Mbodji, Kennedy A. Borchardt-Setter, Ashley Weichmann, Justin J. Jeffery, Lian Yu, Geoff G. Z. Zhang, Torsten Stelzer, _**RKC**_ [Link](https://papers.ssrn.com/abstract=6615901).
+- **Interpretable visualizations of data spaces for classification problems** – Christian Alexander Jorgensen, Arthur Y Lin, Rhushil Vasavada, _**RKC**_, _Machine Learning: Science and Technology_ [Link](http://iopscience.iop.org/article/10.1088/2632-2153/ae466e).
 
 2025
 ----
