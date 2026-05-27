@@ -9,9 +9,10 @@ layout: default
 - **Extrapolation of Machine-Learning Interatomic Potentials for Organic and Polymeric Systems** – Natalie E. Hooven, Arthur Y. Lin, Charles H. Carroll, _**RKC**_, _Preprint_ [Link](http://arxiv.org/abs/2509.25022).
 - **Data-Driven Design Rules for Three-Dimensional Photonic Crystals** – _**RKC**_, Saswat K. Nayak, Seungmin H. Lee, _ACS Omega_ [Link](https://pubs.acs.org/doi/abs/10.1021/acsomega.6c00256).
 - **Evaporative Coupled with Antisolvent Crystallization for Additive Manufacturing of Personalized Solid Dosage Forms** – Aliou Mbodji, Andrea Arroyo Gomez, Gianelle Bigio Silva, Cornelis Vlaar, Jorge Duconge, Jean-Christophe M. Monbaliu, _**RKC**_, Lian Yu, Geoff G. Z. Zhang, Gerard Coquerel, Rodolfo Romañach, Torsten Stelzer [Link](https://papers.ssrn.com/abstract=6498428).
-- **Identifying the Impact of Chemical Functional Groups on Ionic Liquid Conductivity** – J E Umaña, N A Zawicki, Matthew A Gebbie, Victor M Zavala, _**RKC**_ [Link](https://chemrxiv.org/doi/full/10.26434/chemrxiv.15000903/v1).
 - **Non-Destructive Pipeline for Analysis of Crystalline Solid Dispersions** – Christian Jorgensen, Aliou Mbodji, Kennedy A. Borchardt-Setter, Ashley Weichmann, Justin J. Jeffery, Lian Yu, Geoff G. Z. Zhang, Torsten Stelzer, _**RKC**_ [Link](https://papers.ssrn.com/abstract=6615901).
-- **Interpretable visualizations of data spaces for classification problems** – Christian Alexander Jorgensen, Arthur Y Lin, Rhushil Vasavada, _**RKC**_, _Machine Learning: Science and Technology_ [Link](http://iopscience.iop.org/article/10.1088/2632-2153/ae466e).
+- **Interpretable visualizations of data spaces for classification problems** – Christian Jorgensen, Arthur Y Lin, Rhushil Vasavada, _**RKC**_, _Machine Learning: Science and Technology_ _7_ (2), 025008 [Link](https://iopscience.iop.org/article/10.1088/2632-2153/ae466e).
+- **Identifying the Impact of Chemical Functional Groups on Ionic Liquid Conductivity** – J E Umaña, N. A. Zawicki, Matthew A. Gebbie, Victor M. Zavala, _**RKC**_, _Chemical Science_, 10.1039.D6SC02121B [Link](http://pubs.rsc.org/en/Content/ArticleLanding/2026/SC/D6SC02121B).
+- **Chemiscope 1.0: interactive exploration of atomistic data from analysis to dissemination** – Sofiia Chorna, Jakub Lála, Qianjun Xu, _**RKC**_, Guillaume Fraux, Michele Ceriotti, _Journal of Open Source Software_.
 
 2025
 ----
@@ -47,12 +48,10 @@ layout: default
 2021
 ----
 - **Improving sample and feature selection with principal covariates regression** – _**RKC**_, Benjamin A Helfrecht, Edgar A Engel, Sergei Kliavinek, Michele Ceriotti, _Machine Learning: Science and Technology_ _2_ (3), 035038 [Link](https://iopscience.iop.org/article/10.1088/2632-2153/abfe7c).
-- **Open Dataset** - **The Diversity of Three-Dimensional Photonic Crystals** – _**RKC**_, J. A. Antonaglia, B. D. Dice, S.C. Glotzer [Link](https://glotzerlab.engin.umich.edu/photonics/index.html).
 - **The diversity of three-dimensional photonic crystals** – _**RKC**_, James Antonaglia, Bradley D. Dice, Sharon C. Glotzer, _Nature Communications_ _12_ (1), 2543 [Link](https://www.nature.com/articles/s41467-021-22809-6).
 
 2020
 ----
-- **Open Dataset** - **Structure-property maps with kernel principal covariates regression** – Benjamin A. Helfrecht, _**RKC**_, Guillaume Fraux, Michele Ceriotti [Link](https://archive.materialscloud.org/record/2020.80).
 - **Structure-property maps with kernel principal covariates regression** – Benjamin A Helfrecht, _**RKC**_, Guillaume Fraux, Michele Ceriotti, _Machine Learning: Science and Technology_ _1_ (4), 045021 [Link](https://iopscience.iop.org/article/10.1088/2632-2153/aba9ef).
 - **Chemiscope: interactive structure-property explorer for materials and molecules** – Guillaume Fraux, _**RKC**_, Michele Ceriotti, _Journal of Open Source Software_ _5_ (51), 2117 [Link](https://joss.theoj.org/papers/10.21105/joss.02117).
 - **Paper: Bringing Science Education and Research together to REACT** – Alyssa Travitz, Ayse Muniz, Joanne Beckwith, _**RKC**_, 35030 [Link](http://peer.asee.org/35030).
