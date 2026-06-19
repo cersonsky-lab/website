@@ -4,7 +4,40 @@ layout: default
 
 This page is a summary of our work-life balance where we engage in shenanigans and we will be adding to it as we grow as a group.
 
+# **2026**
+
+### The undergraduates presented their research at the Spring 2026 CBE Undergraduate Research Poster Session - Featuring Chance Wall, Sriman Nedunuri, James Yeom, and Caleb Youngwerth!
+<img src="./imgs/2026_PosterSessionsSpring/PXL_20260427_212317676.jpg" style="max-height: 250px">
+<img src="./imgs/2026_PosterSessionsSpring/PXL_20260427_212332016.jpg" style="max-height: 250px">
+<img src="./imgs/2026_PosterSessionsSpring/PXL_20260427_212344908.jpg" style="max-height: 250px">
+<img src="./imgs/2026_PosterSessionsSpring/PXL_20260427_212419399.jpg" style="max-height: 250px">
+
+### In celebration of Ethan's successful prelim, the group went bowling, followed by dinner at the Globe! (March 2026)
+<img src="./imgs/2026_Bowling_Globe/IMG_2392_1.jpeg" style="max-height: 250px">
+<img src="./imgs/2026_Bowling_Globe/ethan_bowling.gif" style="max-height: 250px">
+<img src="./imgs/2026_Bowling_Globe/IMG_2389.jpg" style="max-height: 250px">
+<img src="./imgs/2026_Bowling_Globe/IMG_2391.jpg" style="max-height: 250px">
+
 # **2025**
+### The lab had its annual Christmas bake-off, with Charles taking first place with an amazing Babka! (December 2025)
+<img src="./imgs/2025_BakeOff/20251215_130104.jpg" style="max-height: 250px">
+<img src="./imgs/2025_BakeOff/1000030049.jpg" style="max-height: 250px">
+<img src="./imgs/2025_BakeOff/1000030050.jpg" style="max-height: 250px">
+<img src="./imgs/2025_BakeOff/1000030051.jpg" style="max-height: 250px">
+<img src="./imgs/2025_BakeOff/1000030052.jpg" style="max-height: 250px">
+
+### The undergraduates presented their research at the Fall 2025 CBE Undergraduate Research Poster Session - Featuring Matthew Reuteman, James Yeom, and Sriman Nedunuri (December 2025)
+<img src="./imgs/2025_PosterSessionsFall/PXL_20251210_21580888.jpg" style="max-height: 250px">
+<img src="./imgs/2025_PosterSessionsFall/PXL_20251210_215236482.jpg" style="max-height: 250px">
+<img src="./imgs/2025_PosterSessionsFall/PXL_20251210_215958052.jpg" style="max-height: 250px">
+
+### The group went mini-golfing at Vitense Golfland, followed by dinner at Cafe Hollander! (May 2025)
+<img src="./imgs/2025_MiniGolf_Hollander/1000016843.jpg" style="max-height: 250px">
+<img src="./imgs/2025_MiniGolf_Hollander/1000016838.jpg" style="max-height: 250px">
+<img src="./imgs/2025_MiniGolf_Hollander/1000016837.jpg" style="max-height: 250px">
+<img src="./imgs/2025_MiniGolf_Hollander/1000016839.jpg" style="max-height: 250px">
+<img src="./imgs/2025_MiniGolf_Hollander/IMG_9686.jpg" style="max-height: 250px">
+
 ### Joyful group outing at Schwoegler Park Towne Lanes. Complete with curds, gutter guards, and "trick shot," who beat more people at bowling than it is polite to mention. (March 2025)
 <img src="./imgs/2025_Group_Social/20250331_154902.jpg" style="max-height: 250px">
 <img src="./imgs/2025_Group_Social/20250331_154941(0).jpg" style="max-height: 250px">
