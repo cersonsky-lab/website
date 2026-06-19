@@ -6,13 +6,13 @@ layout: default
 2026
 ----
 - **Reply to: An explanation for the Rule of Four in Inorganic Materials** – Elena Gazzarrini, _**RKC**_, Marnik Bercx, Carl S. Adorf, Nicola Marzari, _npj Computational Materials_ _12_ (1), 43 [Link](https://www.nature.com/articles/s41524-025-01755-7).
-- **Extrapolation of Machine-Learning Interatomic Potentials for Organic and Polymeric Systems** – Natalie E. Hooven, Arthur Y. Lin, Charles H. Carroll, _**RKC**_, _Preprint_ [Link](http://arxiv.org/abs/2509.25022).
 - **Data-Driven Design Rules for Three-Dimensional Photonic Crystals** – _**RKC**_, Saswat K. Nayak, Seungmin H. Lee, _ACS Omega_ [Link](https://pubs.acs.org/doi/abs/10.1021/acsomega.6c00256).
-- **Evaporative Coupled with Antisolvent Crystallization for Additive Manufacturing of Personalized Solid Dosage Forms** – Aliou Mbodji, Andrea Arroyo Gomez, Gianelle Bigio Silva, Cornelis Vlaar, Jorge Duconge, Jean-Christophe M. Monbaliu, _**RKC**_, Lian Yu, Geoff G. Z. Zhang, Gerard Coquerel, Rodolfo Romañach, Torsten Stelzer [Link](https://papers.ssrn.com/abstract=6498428).
-- **Non-Destructive Pipeline for Analysis of Crystalline Solid Dispersions** – Christian Jorgensen, Aliou Mbodji, Kennedy A. Borchardt-Setter, Ashley Weichmann, Justin J. Jeffery, Lian Yu, Geoff G. Z. Zhang, Torsten Stelzer, _**RKC**_ [Link](https://papers.ssrn.com/abstract=6615901).
 - **Interpretable visualizations of data spaces for classification problems** – Christian Jorgensen, Arthur Y Lin, Rhushil Vasavada, _**RKC**_, _Machine Learning: Science and Technology_ _7_ (2), 025008 [Link](https://iopscience.iop.org/article/10.1088/2632-2153/ae466e).
+- **Non-destructive pipeline for analysis of crystalline solid dispersions** – Christian Jorgensen, Aliou Mbodji, Kennedy A. Borchardt-Setter, Ashley Weichmann, Justin Jeffery, Lian Yu, Geoff G. Z. Zhang, Torsten Stelzer, _**RKC**_, _International Journal of Pharmaceutics_, 127046 [Link](https://www.sciencedirect.com/science/article/pii/S0378517326004941).
+- **Chemiscope 1.0: interactive exploration of atomistic data from analysis to dissemination** – Sofiia Chorna, Jakub Lála, Qianjun Xu, _**RKC**_, Guillaume Fraux, Michele Ceriotti, _Journal of Open Source Software_ _11_ (122), 10380 [Link](https://joss.theoj.org/papers/10.21105/joss.10380).
+- **Evaporative coupled with antisolvent crystallization for additive manufacturing of personalized solid dosage forms** – Aliou Mbodji, Andrea Arroyo Gomez, Gianelle Bigio Silva, Cornelis P Vlaar, Jorge Duconge, Jean-Christophe M Monbaliu, _**RKC**_, Lian Yu, Geoff GZ Zhang, Gérard Coquerel, Rodolfo J Romañach, Torsten Stelzer, _International Journal of Pharmaceutics_ _700_, 127044 [Link](https://www.sciencedirect.com/science/article/pii/S0378517326004928).
+- **How Long Is Long Enough? Extrapolation of Machine-Learning Interatomic Potentials for Oligomeric and Polymeric Systems** – Natalie E. Hooven, Arthur Y. Lin, Charles H. Carroll, _**RKC**_, _Journal of Chemical Theory and Computation_ [Link](https://doi.org/10.1021/acs.jctc.6c00365).
 - **Identifying the Impact of Chemical Functional Groups on Ionic Liquid Conductivity** – J E Umaña, N. A. Zawicki, Matthew A. Gebbie, Victor M. Zavala, _**RKC**_, _Chemical Science_, 10.1039.D6SC02121B [Link](http://pubs.rsc.org/en/Content/ArticleLanding/2026/SC/D6SC02121B).
-- **Chemiscope 1.0: interactive exploration of atomistic data from analysis to dissemination** – Sofiia Chorna, Jakub Lála, Qianjun Xu, _**RKC**_, Guillaume Fraux, Michele Ceriotti, _Journal of Open Source Software_.
 
 2025
 ----

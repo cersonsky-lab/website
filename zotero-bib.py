@@ -31,7 +31,7 @@ for item in reversed(sorted(items, key=lambda item: read_date(item.get('date', 0
     data = item.get("data", {})
     if check_key(data, 'date'):
         year = int(read_date(data.get('date'))[0])
-        print(data.get('data'), year)
+        print(data.get('date'), year)
         title = data.get("title", "No title")
         creators = data.get("creators", [])
         authors = ", ".join(format_name(c) for c in creators)
