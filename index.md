@@ -41,7 +41,7 @@ The Cersonsky group is interested in leveraging data science and molecular simul
 
 <div class="image-hover-wrapper">
   <div class="image-hover-container">
-    <img src="{{ site.baseurl }}/assets/img/group_photo_06_2025.jpg" alt="Group Photo">
-    <img class="hover-image" src="{{ site.baseurl }}/assets/img/group_photo_06_2025-02.jpg" alt="True Group Photo">
+    <img src="{{ site.baseurl }}/assets/img/group_photo_06_2026.jpeg" alt="Group Photo">
+    <img class="hover-image" src="{{ site.baseurl }}/assets/img/group_photo_06_2026-02.jpeg" alt="True Group Photo">
   </div>
 </div>
