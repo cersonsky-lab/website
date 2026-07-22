@@ -60,6 +60,7 @@ I've been a tennis instructor for over 5 years!
 
 <!-- Publications here -->
 **Publications**
+- **Non-destructive pipeline for analysis of crystalline solid dispersions** - **Christian Jorgensen**, Aliou Mbodji, Kennedy A. Borchardt-Setter, Ashley Weichmann, Justin Jeffery, Lian Yu, Geoff G.Z. Zhang, Torsten Stelzer, Rose K. Cersonsky, _International Journal of Pharmaceutics_ [Link](https://www.sciencedirect.com/science/article/pii/S0378517326004941)
 - **Interpretable visualizations of data spaces for classification problems** – **Christian Jorgensen**, Arthur Y Lin, Rhushil Vasavada, Rose K. Cersonsky, _Machine Learning: Science and Technology_ [Link](http://iopscience.iop.org/article/10.1088/2632-2153/ae466e).
 - **scikit-matter : A Suite of Generalisable Machine Learning Methods Born out of Chemistry and Materials Science** – Alexander Goscinski, **Christian Jorgensen**, Victor Paul Principe, Guillaume Fraux, Sergei Kliavinek, Benjamin A. Helfrecht, Philip Loche, Rhushil Vasavada, Michele Ceriotti, Rose K. Cersonsky, _Open Research Europe_ _3_, 81 [Link](https://open-research-europe.ec.europa.eu/articles/3-81/v3).
 
