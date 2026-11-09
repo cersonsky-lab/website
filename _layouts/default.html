@@ -9,34 +9,49 @@
     <meta property="og:image" content="{{ site.baseurl }}/assets/img/group_photo_06_2026.jpeg">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ page.url | absolute_url }}">
-
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
     <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
   </head>
   <body>
-      <div class="wrapper">
-          <header>
-
-              <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-              <a href="{{ site.baseurl }}/"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
-
-                  <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-                  <strong><a>Rose K. Cersonsky</a> &nbsp(<a href="https://rosecersonsky.com/CV.pdf">CV</a> | <a href="https://www.rosecersonsky.com">Webpage</a>)</strong><br>
-                  {% for link in site.data.navigation %}
-                  <strong><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></strong><br>
-                  {% endfor %}
-                  <br><strong><a href="https://github.com/cersonsky-lab"> GitHub</a><br></strong>
-                  Last Updated: {{ site.time | date: "%m/%d/%Y" }}
-</header>
-          <section>
-
-              {{ content }}
-
-          </section>
+    <nav class="topnav">
+      <div class="topnav-inner">
+        <a class="topnav-brand" href="{{ site.baseurl }}/">
+          Cersonsky Lab <span>@ UW–Madison</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation" onclick="this.classList.toggle('open'); document.getElementById('nav-links').classList.toggle('open')">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          {% for link in site.data.navigation %}
+          <a class="nav-link {% if page.url contains link.url %}active{% endif %}" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+          {% endfor %}
+          <a class="nav-link nav-github" href="https://github.com/cersonsky-lab">GitHub</a>
+        </div>
       </div>
+    </nav>
+
+    {% if page.url == "/" or page.url == "/index.html" %}
+      {{ content }}
+    {% else %}
+      <div class="wrapper">
+        <section class="main-content">
+          {{ content }}
+        </section>
+      </div>
+    {% endif %}
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span>
+          <a href="https://rosecersonsky.com/CV.pdf">CV</a> ·
+          <a href="https://www.rosecersonsky.com">Rose K. Cersonsky</a>
+        </span>
+        <span class="footer-updated">Last updated: {{ site.time | date: "%m/%d/%Y" }}</span>
+      </div>
+    </footer>
+
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>

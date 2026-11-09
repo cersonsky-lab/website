@@ -2,46 +2,22 @@
 layout: default
 ---
 
-# **Welcome to the webpage of the Cersonsky Lab!**
-
-The Cersonsky group is interested in leveraging data science and molecular simulation to explore molecular systems with changing and complex phase behavior. This research aims to address pertinent fundamental and applied open problems in computational chemical and materials sciences, all to better our world. Our group is committed to conducting research that upholds the principles of open science and adheres to FAIR data standards.
-
-**This website is built by our group at UW-Madison, in order to give it a personality and provide opportunities for our group to practice their skills in version control (via Git) and software collaboration.** Every person in the lab, from undergraduates to PI, are responsible for making and updating their own page, reviewing edits, and making suggestions about how to improve this public-facing resource. We hope you enjoy what we've come up with!
-
-<style>
-.image-hover-container {
-  display: inline-block;
-  max-width: 100%;
-}
-
-.image-hover-container img {
-  width: 100%;
-  height: auto;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.image-hover-container img.hover-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-}
-
-.image-hover-container:hover img.hover-image {
-  opacity: 1;
-}
-
-.image-hover-wrapper {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-  max-width: 1200px; /* Adjust as needed */
-}
-</style>
-
-<div class="image-hover-wrapper">
-  <div class="image-hover-container">
-    <img src="{{ site.baseurl }}/assets/img/group_photo_06_2026.jpeg" alt="Group Photo">
-    <img class="hover-image" src="{{ site.baseurl }}/assets/img/group_photo_06_2026-02.jpeg" alt="True Group Photo">
+<div class="hero-full">
+  <div class="hero-inner">
+    <h1>Making science better,<br><em>one simulation at a time.</em></h1>
+    <p>We leverage data science and molecular simulation to explore molecular systems with changing and complex phase behavior — addressing open problems in computational chemical and materials sciences, all to better our world.</p>
+    <p>Our group is committed to open science and FAIR data standards. <strong>This site is built by our entire lab</strong> — from undergrads to PI — as a living practice in version control and software collaboration.</p>
+    <div class="hero-cta">
+      <a class="btn-red" href="{{ site.baseurl }}/members/">Meet the team</a>
+      <a class="btn-outline" href="{{ site.baseurl }}/research">Our research</a>
+    </div>
+    <div class="hero-photo">
+      <div class="image-hover-wrapper">
+        <div class="image-hover-container">
+          <img src="{{ site.baseurl }}/assets/img/group_photo_06_2026.jpeg" alt="Cersonsky Lab group photo">
+          <img class="hover-image" src="{{ site.baseurl }}/assets/img/group_photo_06_2026-02.jpeg" alt="Cersonsky Lab group photo (alternate)">
+        </div>
+      </div>
+    </div>
   </div>
 </div>
