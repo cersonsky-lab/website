@@ -9,11 +9,11 @@ with open("members/index.md", "w") as outf:
                "ul {\n list-style-type: none;\n padding: 0\n}\n\n"
                "li {\n text-align: center;\n}\n\n"
                "@media print, screen and (max-width: 1100px) {\n .profile-container {\n  max-width: 450px\n }\n"
-               " .profile{\n  width: 47%;\n }\n\n"
+               " .profile{\n  width: 47%;\n }\n}\n\n"
                "@media print, screen and (max-width: 960px) {\n .profile-container {\n  max-width: 700px\n }\n"
-               " .profile{\n  width: 31%;\n }\n\n"
+               " .profile{\n  width: 31%;\n }\n}\n\n"
                "@media print, screen and (max-width: 720px) {\n .profile-container {\n  max-width: 450px\n }\n"
-               " .profile{\n  width: 47%;\n }\n\n"
+               " .profile{\n  width: 47%;\n }\n}\n\n"
                "</style>\n</head>\n\n")
 
     n = 0
