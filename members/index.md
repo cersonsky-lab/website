@@ -39,6 +39,7 @@ li {
  .profile{
   width: 47%;
  }
+}
 
 @media print, screen and (max-width: 960px) {
  .profile-container {
@@ -47,6 +48,7 @@ li {
  .profile{
   width: 31%;
  }
+}
 
 @media print, screen and (max-width: 720px) {
  .profile-container {
@@ -55,6 +57,7 @@ li {
  .profile{
   width: 47%;
  }
+}
 
 </style>
 </head>
@@ -67,6 +70,19 @@ li {
 <div class="profile-container">
 <div class="profile">
 <a href="{{ site.baseurl }}/members/rose_(rosy)_cersonsky"><img src="{{ site.baseurl }}/assets/img/rose_(rosy)_cersonsky.png" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/rose_(rosy)_cersonsky">Rose (Rosy) Cersonsky</a>
+</div>
+</div>
+
+
+------
+
+
+<h2 style="text-align: center;"> Postdoctoral Researchers
+</h2>
+
+<div class="profile-container">
+<div class="profile">
+<a href="{{ site.baseurl }}/members/barnabas_agbodekhe"><img src="{{ site.baseurl }}/assets/img/barnabas_agbodekhe.jpg" style="width:200px; height:200px; object-fit:cover;"></a><br><a href="{{ site.baseurl }}/members/barnabas_agbodekhe">Barnabas Agbodekhe</a>
 </div>
 </div>
 
